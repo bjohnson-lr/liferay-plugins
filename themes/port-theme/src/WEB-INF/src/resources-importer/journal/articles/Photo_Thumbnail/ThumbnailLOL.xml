@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element name="BackgroundImage" type="image" index-type="keyword" instance-id="zpwv">
+		<dynamic-content language-id="en_US"><![CDATA[{
+			"groupId":"32872",
+			"name":"card_thumbnail",
+			"alt":"",
+			"title":"card_thumbnail",
+			"type":"document",
+			"uuid":"230805a2-7d6c-41a8-3ee4-3675f0cf0f28",
+			"resourcePrimKey":"38884"
+		}]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element name="ButtonText" type="text" index-type="keyword" instance-id="lytv">
+		<dynamic-content language-id="en_US"><![CDATA[LOLOLOLHI]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element name="LinkToPage" type="link_to_layout" index-type="keyword" instance-id="yavl">
+		<dynamic-content language-id="en_US"><![CDATA[2@private-group@32872]]></dynamic-content>
+	</dynamic-element>
+</root>

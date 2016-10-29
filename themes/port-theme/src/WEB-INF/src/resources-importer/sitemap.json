@@ -1,0 +1,100 @@
+{
+	"layoutTemplateId": "1_column",
+	"publicPages": [
+		{
+			"columns": [
+				[
+					{
+						"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+						"portletPreferences": {
+							"articleId": "Header_Banner.xml",
+							"groupId": "${groupId}",
+							"portletSetupPortletDecoratorId": "portlet-banner"
+						}
+					},
+					{
+						"portletId": "com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet",
+						"portletPreferences": {
+							"layoutTemplateId": "port_1_3_columns",
+							"portletSetupPortletDecoratorId": "custom",
+							"columns": [
+								[
+									{
+										"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+										"portletPreferences": {
+											"articleId": "Works_Display_Heading.xml",
+											"groupId": "${groupId}",
+											"portletSetupPortletDecoratorId": "custom"
+										}
+									}
+								],
+								[
+									{
+										"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+										"portletPreferences": {
+											"articleId": "ThumbnailLOL.xml",
+											"groupId": "${groupId}",
+											"portletSetupPortletDecoratorId": "custom"
+										}
+									},
+									{
+										"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+										"portletPreferences": {
+											"articleId": "ThumbnailLOL.xml",
+											"groupId": "${groupId}",
+											"portletSetupPortletDecoratorId": "custom"
+										}
+									}
+								],
+								[
+									{
+										"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+										"portletPreferences": {
+											"articleId": "ThumbnailLOL.xml",
+											"groupId": "${groupId}",
+											"portletSetupPortletDecoratorId": "custom"
+										}
+									},
+									{
+										"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+										"portletPreferences": {
+											"articleId": "ThumbnailLOL.xml",
+											"groupId": "${groupId}",
+											"portletSetupPortletDecoratorId": "custom"
+										}
+									}
+								],
+								[
+									{
+										"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+										"portletPreferences": {
+											"articleId": "ThumbnailLOL.xml",
+											"groupId": "${groupId}",
+											"portletSetupPortletDecoratorId": "custom"
+										}
+									},
+									{
+										"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+										"portletPreferences": {
+											"articleId": "ThumbnailLOL.xml",
+											"groupId": "${groupId}",
+											"portletSetupPortletDecoratorId": "custom"
+										}
+									}
+								]
+							]
+						}
+					}
+				]
+			],
+			"friendlyURL": "/home",
+			"name": "Home",
+			"title": "Home"
+		},
+		{
+			"friendlyURL": "/about",
+			"name": "About Us",
+			"title": "About Us"
+		}
+	]
+}
