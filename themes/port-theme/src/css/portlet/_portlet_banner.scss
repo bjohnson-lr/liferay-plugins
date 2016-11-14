@@ -1,6 +1,11 @@
 /* Portlet Banner look and feel styles */
+@import '../_custom_vars.scss';
 
 .portlet-banner {
+	h3 {
+		font-family: $alegreyaSans;
+	}
+
 	.portlet-title-text {
 		display: none;
 	}
@@ -70,7 +75,14 @@
 	}
 
 	.site-banner {
-		padding: 150px 50px;
+		.overlay {
+			height: 100%;
+			left: 0;
+			padding: 150px 50px;
+			position: relative;
+			top: 0;
+			width: 100%;
+		}
 
 		.heading {
 			margin-bottom: 50px;
@@ -91,18 +103,15 @@
 	.call-to-action {
 		margin: 0 auto;
 		max-width: 1000px;
-		padding: 0;
 		text-align: center;
 
 		.btn {
-			background-color: #76DCC8;
 			border-width: 0;
 			color: rgba(255, 255, 255, 0.8);
 			margin-top: 30px;
 			@include transition(color 0.2s linear);
 
 			&:hover {
-				background-color: #56ab9a;
 				border-width: 0;
 				color: rgba(255, 255, 255, 1);
 			}
