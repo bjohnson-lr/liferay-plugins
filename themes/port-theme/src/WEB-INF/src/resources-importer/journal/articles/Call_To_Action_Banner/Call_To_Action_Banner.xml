@@ -14,6 +14,6 @@
 		<dynamic-content language-id="en_US"><![CDATA[medium]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="BackgroundImage" type="image" index-type="keyword" instance-id="gsyx">
-		<dynamic-content language-id="en_US"><![CDATA[{"groupId":"32850","name":"notebook-computer-chill-relax","alt":"","title":"notebook-computer-chill-relax","type":"document","uuid":"cc1ec0df-3d19-1685-daed-fe2b6da2849b","resourcePrimKey":"35775"}]]></dynamic-content>
+		<dynamic-content language-id="en_US"><![CDATA[{"groupId":"32850","name":"traffic","alt":"","title":"traffic","type":"document","uuid":"8afa9b34-69ad-ea89-95fd-f103e4606f48","resourcePrimKey":"39329"}]]></dynamic-content>
 	</dynamic-element>
 </root>
