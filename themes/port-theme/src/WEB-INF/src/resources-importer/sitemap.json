@@ -43,6 +43,14 @@
 							"groupId": "${groupId}",
 							"portletSetupPortletDecoratorId": "portlet-banner"
 						}
+					},
+					{
+						"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+						"portletPreferences": {
+							"articleId": "Testimonials.xml",
+							"groupId": "${groupId}",
+							"portletSetupPortletDecoratorId": "portlet-custom"
+						}
 					}
 				]
 			],
