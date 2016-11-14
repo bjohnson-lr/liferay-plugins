@@ -1,5 +1,3 @@
-
-Header_Banner
 <?xml version="1.0"?>
 
 <root available-locales="en_US" default-locale="en_US">
@@ -13,14 +11,6 @@ Header_Banner
 		<dynamic-content language-id="en_US"><![CDATA[full-page]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="BackgroundImage" type="image" index-type="keyword" instance-id="yxwy">
-		<dynamic-content language-id="en_US"><![CDATA[{
-			"groupId":"32872",
-			"name":"port-banner",
-			"alt":"",
-			"title":"port-banner",
-			"type":"document",
-			"uuid":"460308db-a452-5166-1167-698071e19f24",
-			"resourcePrimKey":"35444"
-		}]]></dynamic-content>
+		<dynamic-content language-id="en_US"><![CDATA[{"groupId":"32850","name":"port-banner","alt":"","title":"port-banner","type":"document","uuid":"e47e7f06-df5e-2f7d-5722-2c2bac146411","resourcePrimKey":"32930"}]]></dynamic-content>
 	</dynamic-element>
 </root>

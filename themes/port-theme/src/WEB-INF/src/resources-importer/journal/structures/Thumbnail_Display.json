@@ -52,7 +52,7 @@
 		},
 		{
 			"label": {
-				"en_US": "Button Text"
+				"en_US": "Button text"
 			},
 			"predefinedValue": {
 				"en_US": ""
@@ -75,7 +75,7 @@
 		},
 		{
 			"label": {
-				"en_US": "Link"
+				"en_US": "Button link"
 			},
 			"predefinedValue": {
 				"en_US": ""
@@ -90,12 +90,85 @@
 			"fieldNamespace": "ddm",
 			"indexType": "keyword",
 			"localizable": true,
-			"name": "Link",
+			"name": "ButtonLink",
 			"readOnly": false,
 			"repeatable": false,
 			"required": false,
 			"showLabel": true,
 			"type": "ddm-link-to-page"
+		},
+		{
+			"label": {
+				"en_US": "Thumbnail"
+			},
+			"predefinedValue": {
+				"en_US": ""
+			},
+			"style": {
+				"en_US": ""
+			},
+			"tip": {
+				"en_US": ""
+			},
+			"dataType": "string",
+			"indexType": "keyword",
+			"localizable": true,
+			"name": "Thumbnail",
+			"readOnly": false,
+			"repeatable": true,
+			"required": false,
+			"showLabel": true,
+			"type": "text",
+			"nestedFields": [
+				{
+					"label": {
+						"en_US": "Thumbnail image"
+					},
+					"predefinedValue": {
+						"en_US": ""
+					},
+					"style": {
+						"en_US": ""
+					},
+					"tip": {
+						"en_US": ""
+					},
+					"dataType": "image",
+					"fieldNamespace": "ddm",
+					"indexType": "keyword",
+					"localizable": true,
+					"name": "ThumbnailImage",
+					"readOnly": false,
+					"repeatable": false,
+					"required": false,
+					"showLabel": true,
+					"type": "ddm-image"
+				},
+				{
+					"label": {
+						"en_US": "Thumbnail link"
+					},
+					"predefinedValue": {
+						"en_US": ""
+					},
+					"style": {
+						"en_US": ""
+					},
+					"tip": {
+						"en_US": ""
+					},
+					"dataType": "link-to-page",
+					"fieldNamespace": "ddm",
+					"indexType": "keyword",
+					"localizable": true,
+					"name": "ThumbnailLink",
+					"readOnly": false,
+					"repeatable": false,
+					"required": false,
+					"showLabel": true,
+					"type": "ddm-link-to-page"
+				}
+			]
 		}
 	]
 }
