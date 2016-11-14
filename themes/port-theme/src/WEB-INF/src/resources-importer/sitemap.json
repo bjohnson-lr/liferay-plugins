@@ -27,8 +27,15 @@
 							"groupId": "${groupId}",
 							"portletSetupPortletDecoratorId": "portlet-banner"
 						}
+					},
+					{
+						"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+						"portletPreferences": {
+							"articleId": "Blog_Display.xml",
+							"groupId": "${groupId}",
+							"portletSetupPortletDecoratorId": "portlet-custom"
+						}
 					}
-
 				]
 			],
 			"friendlyURL": "/home",
