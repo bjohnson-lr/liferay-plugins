@@ -39,6 +39,16 @@
 				background-color: rgba($accent, 0.9);
 				border-color: rgba($accent, 0.9);
 			}
+
+			.btn-complement {
+				$complement: adjust-hue($accent, -20);
+
+				background-color: lighten($complement, 5%);
+
+				&:hover {
+					background-color: $complement;
+				}
+			}
 		}
 
 		.overlay {

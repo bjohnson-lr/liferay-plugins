@@ -1,3 +1,5 @@
+<!-- TODO : Insert portion that allows user to change the banner size from medium to large -->
+
 <div class="photo-bg services site-banner" style="background-image: linear-gradient(rgba(90, 140, 150, 0.6), rgba(90, 140, 150, 0.6)), url(${BackgroundImage.getData()})">
 
 	<div class="heading">

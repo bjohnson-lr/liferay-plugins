@@ -131,7 +131,7 @@
 .cards {
 	@include display(flex);
 	@include flex-wrap(wrap);
-	@include justify-content(flex-start);
+	@include justify-content(center);
 
 	list-style-type: none;
 	margin: 0 auto;
@@ -165,6 +165,10 @@
 			margin: 0 auto;
 			width: 100%;
 		}
+	}
+
+	@media (max-width: 715px) {
+		@include justify-content(flex-start);
 	}
 
 	@media (max-width: 600px) {

@@ -35,6 +35,14 @@
 							"groupId": "${groupId}",
 							"portletSetupPortletDecoratorId": "portlet-custom"
 						}
+					},
+					{
+						"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+						"portletPreferences": {
+							"articleId": "Call_To_Action_Banner.xml",
+							"groupId": "${groupId}",
+							"portletSetupPortletDecoratorId": "portlet-banner"
+						}
 					}
 				]
 			],

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element name="CallToAction" type="text" index-type="keyword" instance-id="iwnh">
+		<dynamic-content language-id="en_US"><![CDATA[This is a longer call to action. We hope that you buy our product]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element name="ButtonText" type="text" index-type="keyword" instance-id="vxyv">
+		<dynamic-content language-id="en_US"><![CDATA[Click Me!]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element name="LinkToPage" type="link_to_layout" index-type="keyword" instance-id="kocu">
+		<dynamic-content language-id="en_US"><![CDATA[2@private-group@32850]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element name="BannerSize" type="list" index-type="keyword" instance-id="reiu">
+		<dynamic-content language-id="en_US"><![CDATA[medium]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element name="BackgroundImage" type="image" index-type="keyword" instance-id="gsyx">
+		<dynamic-content language-id="en_US"><![CDATA[{"groupId":"32850","name":"notebook-computer-chill-relax","alt":"","title":"notebook-computer-chill-relax","type":"document","uuid":"cc1ec0df-3d19-1685-daed-fe2b6da2849b","resourcePrimKey":"35775"}]]></dynamic-content>
+	</dynamic-element>
+</root>
