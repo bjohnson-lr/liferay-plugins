@@ -59,6 +59,18 @@
 			"title": "Home"
 		},
 		{
+			"columns": [
+				[
+					{
+						"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+						"portletPreferences": {
+							"articleId": "About_Us_Header.xml",
+							"groupId": "${groupId}",
+							"portletSetupPortletDecoratorId": "portlet-custom"
+						}
+					}
+				]
+			],
 			"friendlyURL": "/about",
 			"name": "About Us",
 			"title": "About Us"
