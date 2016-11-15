@@ -1,10 +1,6 @@
-@import './_off_screen_navigation.scss';
-
-@media (min-width: 700px) {
-	@import './_on_screen_navigation.scss';
-}
-
-@import './_header_color_scheme.scss';
+@import './_off_screen_navigation';
+@import './_on_screen_navigation';
+@import './_header_color_scheme';
 
 #banner {
 	@include align-items(center);
