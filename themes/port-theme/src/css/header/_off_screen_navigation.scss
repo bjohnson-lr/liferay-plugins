@@ -1,16 +1,6 @@
-@import '../_custom_vars.scss';
+@import '../_custom_vars';
 
-.full-page-overlay {
-	@include transition(background 0.2s linear);
-}
-
-#nav-wrapper {
-	position: fixed;
-	right: 0;
-	top: 0;
-}
-
-#ControlMenu ~ #wrapper #banner #nav-wrapper {
+#ControlMenu ~ #wrapper #banner #nav-wrapper { // Adjust nav position while control panel is active
 	top: 63px;
 
 	@media (max-width: 768px) {
@@ -18,67 +8,77 @@
 	}
 }
 
-#nav-trigger {
-	display: none;
+#nav-wrapper {
+	position: fixed;
+	right: 0;
+	top: 0;
 
-	&:checked {
-		~ .full-page-overlay {
-			background-color: rgba(0, 0, 0, 0.2);
-			height: 100vh;
-			left: 0;
-			position: fixed;
-			top: 0;
-			width: 100vw;
-			z-index: 888;
-		}
+	#nav-trigger {
+		display: none;
 
-		+ .nav-trigger-btn {
-			opacity: 0.5;
+		&:checked {
+			~ .full-page-overlay {
+				background-color: rgba(0, 0, 0, 0.2);
+				height: 100vh;
+				left: 0;
+				position: fixed;
+				top: 0;
+				width: 100vw;
+				z-index: 888;
+			}
 
-			@include transform(translateX(-$navigation-width));
+			+ .nav-trigger-btn {
+				opacity: 0.5;
 
-			z-index: 999;
-		}
+				@include transform(translateX(-$navigation-width));
 
-		~ #navigation {
-			box-shadow: -5px 0 20px rgba(0, 0, 0, 0.1);
-			position: absolute;
+				z-index: 999;
+			}
 
-			@include transform(translateX(-$navigation-width));
-		}
+			~ #navigation {
+				box-shadow: -5px 0 20px rgba(0, 0, 0, 0.1);
+				position: absolute;
 
-		@media (max-width: 400px) {
-			+ .nav-trigger-btn, ~ #navigation {
-				@include transform(translateX(-$navigation-mobile-width));
+				@include transform(translateX(-$navigation-width));
+			}
+
+			@media (max-width: 400px) {
+				+ .nav-trigger-btn, ~ #navigation {
+					@include transform(translateX(-$navigation-mobile-width));
+				}
 			}
 		}
 	}
-}
 
-.nav-trigger-btn {
-	color: #FFF;
-	font-size: 30px;
-	margin: 0;
-	position: relative;
-	right: 20px;
-	top: 3px;
+	.nav-trigger-btn {
+		color: #FFF;
+		font-size: 30px;
+		margin: 0;
+		position: relative;
+		right: 20px;
+		top: 3px;
 
-	@include transform(translateX(0));
-	@include transition(0.5s ease all);
+		@include transform(translateX(0));
+		@include transition(0.5s ease all);
 
-	&:hover {
-		cursor: pointer;
-		opacity: 0.5;
+		&:hover {
+			cursor: pointer;
+			opacity: 0.5;
+		}
+
+		.lexicon-icon {
+			height: 18px;
+			width: 18px;
+		}
+
+		.lexicon-icon-outline {
+			stroke: #FFF;
+			stroke-width: 70px;
+		}
 	}
 
-	.lexicon-icon {
-		height: 18px;
-		width: 18px;
-	}
-
-	.lexicon-icon-outline {
-		stroke: #FFF;
-		stroke-width: 70px;
+	.full-page-overlay {
+		@include transition(background 0.2s linear);
 	}
 }
 
