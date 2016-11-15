@@ -22,7 +22,7 @@
 								${blog.getData()}
 							</a>
 						</h5>
-						<h6>Posted by <span>${blog.Author.getData()}</span> on ${blog.Date.getData()} in <span>${blog.Category.getData()}</span></h6>
+						<h6 class="blog-byline">Posted by <span>${blog.Author.getData()}</span> on ${blog.Date.getData()} in <span>${blog.Category.getData()}</span></h6>
 						<p>${blog.Preview.getData()}</p>
 
 						<a href="${blog.LinkToBlogPost.getFriendlyUrl()}">Read More</a>

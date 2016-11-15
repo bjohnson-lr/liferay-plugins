@@ -24,7 +24,7 @@
 	.portlet-content {
 		border-radius: 0;
 		border-width: 0;
-		padding: 50px 0;
+		padding: 0;
 	}
 
 	.overlay {
@@ -36,7 +36,7 @@
 	}
 
 	.works-display {
-		margin: 0;
+		margin: 50px 0;
 
 		.heading {
 			padding: 10px;
@@ -121,17 +121,21 @@
 				font-size: 12px;
 			}
 
-			span {
-				font-weight: bold;
-			}
-
 			a {
 				font-size: 10px;
 			}
 		}
 	}
 
+	.blog-byline {
+		span {
+			font-weight: bold;
+		}
+	}
+
 	.testimonials {
+		margin: 50px 0;
+
 		li {
 			max-width: 300px;
 		}
