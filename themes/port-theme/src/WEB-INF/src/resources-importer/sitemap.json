@@ -76,9 +76,31 @@
 			"title": "About Us"
 		},
 		{
-			"friendlyURL": "/blog",
-			"name": "Blog",
-			"title": "Blog"
+			"friendlyURL": "/blogs",
+			"name": "Blogs",
+			"title": "Blogs",
+			"layoutTemplateId": "1_2_columns_ii",
+			"columns": [
+				[
+					{
+						"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+						"portletPreferences": {
+							"articleId": "Blog_Header.xml",
+							"groupId": "${groupId}",
+							"portletSetupPortletDecoratorId": "portlet-custom"
+						}
+					}
+				]
+			],
+			"layouts": [
+				{
+					"friendlyURL": "/benjohnson",
+					"name": "Ben Johnson",
+					"title": "Ben Johnson"
+				}
+			]
+
+
 		}
 	]
 }
