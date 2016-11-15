@@ -5,12 +5,12 @@
 
 /* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
 
-@import 'fonts.scss';
-@import '_custom_vars.scss';
-@import '_custom_mixins.scss';
-@import './header/_header.scss';
-@import './portlet/_portlet_custom.scss';
-@import './portlet/_portlet_banner.scss';
+@import '_custom_fonts';
+@import '_custom_vars';
+@import '_custom_mixins';
+@import './header/_header';
+@import './portlet/_portlet_custom';
+@import './portlet/_portlet_banner';
 
 /* Global styles */
 
