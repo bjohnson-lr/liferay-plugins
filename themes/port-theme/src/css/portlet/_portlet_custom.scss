@@ -21,6 +21,10 @@
 		text-align: center;
 	}
 
+	&:hover .portlet-topper {
+		@include transform(translateY(-32px));
+	}
+
 	.portlet-content {
 		border-radius: 0;
 		border-width: 0;

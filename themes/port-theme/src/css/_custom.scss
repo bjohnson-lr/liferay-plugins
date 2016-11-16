@@ -66,10 +66,6 @@
 .portlet {
 	margin-bottom: 0;
 
-	&:hover .portlet-topper {
-		@include transform(none);
-	}
-
 	.lexicon-icon {
 		color: #777;
 	}
