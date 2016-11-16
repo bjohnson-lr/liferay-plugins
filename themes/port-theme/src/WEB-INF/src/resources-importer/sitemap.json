@@ -106,6 +106,14 @@
 					{
 						"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
 						"portletPreferences": {
+							"articleId": "Full_Width_Header.xml",
+							"groupId": "${groupId}",
+							"portletSetupPortletDecoratorId": "portlet-custom"
+						}
+					},
+					{
+						"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+						"portletPreferences": {
 							"articleId": "Full_Width_Content.xml",
 							"groupId": "${groupId}",
 							"portletSetupPortletDecoratorId": "portlet-custom"

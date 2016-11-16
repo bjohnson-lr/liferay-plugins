@@ -1,3 +1,3 @@
 <div class="page-header">
-	<h3>${Heading.getData()}</h3>
+	<h1>${Heading.getData()}</h1>
 </div>
