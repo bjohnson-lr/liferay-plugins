@@ -99,8 +99,23 @@
 					"title": "Ben Johnson"
 				}
 			]
-
-
+		},
+		{
+			"columns": [
+				[
+					{
+						"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+						"portletPreferences": {
+							"articleId": "Full_Width_Content.xml",
+							"groupId": "${groupId}",
+							"portletSetupPortletDecoratorId": "portlet-custom"
+						}
+					}
+				]
+			],
+			"friendlyURL": "/full-width",
+			"name": "Full Width",
+			"title": "Full Width"
 		}
 	]
 }
