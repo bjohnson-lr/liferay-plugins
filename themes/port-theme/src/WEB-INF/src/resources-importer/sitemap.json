@@ -79,7 +79,7 @@
 			"friendlyURL": "/blogs",
 			"name": "Blogs",
 			"title": "Blogs",
-			"layoutTemplateId": "1_2_columns_ii",
+			"layoutTemplateId": "port_1_2_limited",
 			"columns": [
 				[
 					{

@@ -12,6 +12,14 @@
 			<setting configurable="true" key="navigation-color-scheme" type="select" options="light,dark" value="dark" />
 			<setting configurable="true" key="accent-color" type="select" options="blue,blue-green,gray,green,purple,red" value="blue-green" />
 		</settings>
+		<layout-templates>
+			<custom>
+				<layout-template name="Port 1-2 Limited" id="port_1_2_limited">
+					<template-path>/layouttpl/port_1_2_limited.tpl</template-path>
+					<thumbnail-path>/layouttpl/port_1_2_limited.png</thumbnail-path>
+				</layout-template>
+			</custom>
+		</layout-templates>
 		<portlet-decorator id="barebone" name="Barebone">
 			<portlet-decorator-css-class>portlet-barebone</portlet-decorator-css-class>
 		</portlet-decorator>
