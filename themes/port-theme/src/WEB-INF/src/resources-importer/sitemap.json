@@ -90,6 +90,16 @@
 							"portletSetupPortletDecoratorId": "portlet-custom"
 						}
 					}
+				],
+				[
+					{
+						"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+						"portletPreferences": {
+							"articleId": "Sample_Post.xml",
+							"groupId": "${groupId}",
+							"portletSetupPortletDecoratorId": "portlet-custom"
+						}
+					}
 				]
 			],
 			"layouts": [

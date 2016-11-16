@@ -99,6 +99,30 @@
 		},
 		{
 			"label": {
+				"en_US": "Image"
+			},
+			"predefinedValue": {
+				"en_US": ""
+			},
+			"style": {
+				"en_US": ""
+			},
+			"tip": {
+				"en_US": ""
+			},
+			"dataType": "image",
+			"fieldNamespace": "ddm",
+			"indexType": "keyword",
+			"localizable": true,
+			"name": "Image",
+			"readOnly": false,
+			"repeatable": false,
+			"required": false,
+			"showLabel": true,
+			"type": "ddm-image"
+		},
+		{
+			"label": {
 				"en_US": "Post Content"
 			},
 			"predefinedValue": {
@@ -144,6 +168,6 @@
 			"required": false,
 			"showLabel": true,
 			"type": "ddm-link-to-page"
-		}
+		},
 	]
 }
