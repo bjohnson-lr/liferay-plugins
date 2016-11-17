@@ -11,6 +11,9 @@
 		<dynamic-content language-id="en_US"><![CDATA[full-page]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="BackgroundImage" type="image" index-type="keyword" instance-id="yxwy">
-		<dynamic-content language-id="en_US"><![CDATA[{"groupId":"32850","name":"port-banner","alt":"","title":"port-banner","type":"document","uuid":"e47e7f06-df5e-2f7d-5722-2c2bac146411","resourcePrimKey":"32930"}]]></dynamic-content>
+		<dynamic-content language-id="en_US"><![CDATA[{}]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element name="BackgroundImageURL" type="text" index-type="keyword" instance-id="yvdp">
+		<dynamic-content language-id="en_US"><![CDATA[[$FILE=port-banner.jpg$]]]></dynamic-content>
 	</dynamic-element>
 </root>

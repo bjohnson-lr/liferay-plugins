@@ -1,6 +1,18 @@
-<!-- TODO : Insert portion that allows user to change the banner size from medium to large -->
+<#assign background_image = "" />
 
-<div class="photo-bg services site-banner" style="background-image: linear-gradient(rgba(90, 140, 150, 0.6), rgba(90, 140, 150, 0.6)), url(${BackgroundImage.getData()})">
+<#if BackgroundImageURL.getData()?? && BackgroundImageURL.getData() != "">
+
+	<#assign background_image = BackgroundImageURL.getData() />
+
+</#if>
+
+<#if BackgroundImage.getData()?? && BackgroundImage.getData() != "">
+
+	<#assign background_image = BackgroundImage.getData() />
+
+</#if>
+
+<div class="photo-bg services site-banner" style="background-image: linear-gradient(rgba(90, 140, 150, 0.6), rgba(90, 140, 150, 0.6)), url(${background_image})">
 
 	<div class="overlay">
 

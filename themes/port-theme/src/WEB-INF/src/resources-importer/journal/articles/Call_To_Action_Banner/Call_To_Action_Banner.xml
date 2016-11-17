@@ -14,6 +14,9 @@
 		<dynamic-content language-id="en_US"><![CDATA[medium]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="BackgroundImage" type="image" index-type="keyword" instance-id="gsyx">
-		<dynamic-content language-id="en_US"><![CDATA[{"groupId":"32850","name":"traffic","alt":"","title":"traffic","type":"document","uuid":"8afa9b34-69ad-ea89-95fd-f103e4606f48","resourcePrimKey":"39329"}]]></dynamic-content>
+		<dynamic-content language-id="en_US"><![CDATA[{}]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element name="BackgroundImageURL" type="text" index-type="keyword" instance-id="mrvi">
+		<dynamic-content language-id="en_US"><![CDATA[[$FILE=traffic.jpg$]]]></dynamic-content>
 	</dynamic-element>
 </root>

@@ -38,6 +38,9 @@
 		<dynamic-content language-id="en_US"><![CDATA[medium]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="BackgroundImage" type="image" index-type="keyword" instance-id="lakt">
-		<dynamic-content language-id="en_US"><![CDATA[{"groupId":"32850","name":"notebook-computer-chill-relax","alt":"","title":"notebook-computer-chill-relax","type":"document","uuid":"cc1ec0df-3d19-1685-daed-fe2b6da2849b","resourcePrimKey":"33327"}]]></dynamic-content>
+		<dynamic-content language-id="en_US"><![CDATA[{}]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element name="BackgroundImageURL" type="text" index-type="keyword" instance-id="yarz">
+		<dynamic-content language-id="en_US"><![CDATA[[$FILE=notebook-computer-chill-relax.jpg$]]]></dynamic-content>
 	</dynamic-element>
 </root>
