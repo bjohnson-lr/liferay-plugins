@@ -11,10 +11,6 @@
 	</div>
 
 	<div class="blog-content">
-		<#if Image.getData()?? && Image.getData() != "">
-			<img src="${Image.getData()}">
-		</#if>
-
 		${PostContent.getData()}
 	</div>
 
