@@ -99,6 +99,29 @@
 				},
 				{
 					"label": {
+						"en_US": "Item Image URL (optional)"
+					},
+					"predefinedValue": {
+						"en_US": ""
+					},
+					"style": {
+						"en_US": ""
+					},
+					"tip": {
+						"en_US": ""
+					},
+					"dataType": "string",
+					"indexType": "keyword",
+					"localizable": true,
+					"name": "ItemImageURL",
+					"readOnly": false,
+					"repeatable": false,
+					"required": false,
+					"showLabel": true,
+					"type": "text"
+				},
+				{
+					"label": {
 						"en_US": "Item Text"
 					},
 					"predefinedValue": {

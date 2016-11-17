@@ -2,8 +2,8 @@
 
 <root available-locales="en_US" default-locale="en_US">
 	<dynamic-element name="PersonName" type="text" index-type="keyword" instance-id="jlfd">
-		<dynamic-element name="PersonPhoto" instance-id="qcex" type="image" index-type="keyword">
-			<dynamic-content language-id="en_US"><![CDATA[{"groupId":"32850","name":"person","alt":"","title":"person","type":"document","uuid":"e6e27921-bbb8-ec51-759b-3df0607cbf2b","resourcePrimKey":"39111"}]]></dynamic-content>
+		<dynamic-element name="PersonImageURL" instance-id="qcex" type="text" index-type="keyword">
+			<dynamic-content language-id="en_US"><![CDATA[[$FILE=person.jpg$]]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element name="PersonTestimonial" instance-id="nanj" type="text_box" index-type="text">
 			<dynamic-content language-id="en_US"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum corporis autem id nisi, vitae fugit mollitia dolorem rerum iusto quibusdam dolores error, excepturi nam obcaecati repudiandae veritatis consequuntur deserunt optio officia, nulla accusamus! Nisi voluptatibus iste expedita modi iusto quidem aut mollitia nobis, culpa laborum nemo, eaque blanditiis voluptas.]]></dynamic-content>
@@ -11,8 +11,8 @@
 		<dynamic-content language-id="en_US"><![CDATA[Person]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="PersonName" type="text" index-type="keyword" instance-id="pxln">
-		<dynamic-element name="PersonPhoto" instance-id="oinz" type="image" index-type="keyword">
-			<dynamic-content language-id="en_US"><![CDATA[{"groupId":"32850","name":"person","alt":"","title":"person","type":"document","uuid":"e6e27921-bbb8-ec51-759b-3df0607cbf2b","resourcePrimKey":"39111"}]]></dynamic-content>
+		<dynamic-element name="PersonImageURL" instance-id="oinz" type="text" index-type="keyword">
+			<dynamic-content language-id="en_US"><![CDATA[[$FILE=person.jpg$]]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element name="PersonTestimonial" instance-id="arlj" type="text_box" index-type="text">
 			<dynamic-content language-id="en_US"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum corporis autem id nisi, vitae fugit mollitia dolorem rerum iusto quibusdam dolores error, excepturi nam obcaecati repudiandae veritatis consequuntur deserunt optio officia, nulla accusamus! Nisi voluptatibus iste expedita modi iusto quidem aut mollitia nobis, culpa laborum nemo, eaque blanditiis voluptas.]]></dynamic-content>
@@ -20,8 +20,8 @@
 		<dynamic-content language-id="en_US"><![CDATA[person 2]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="PersonName" type="text" index-type="keyword" instance-id="soin">
-		<dynamic-element name="PersonPhoto" instance-id="rnzi" type="image" index-type="keyword">
-			<dynamic-content language-id="en_US"><![CDATA[{"groupId":"32850","name":"person","alt":"","title":"person","type":"document","uuid":"e6e27921-bbb8-ec51-759b-3df0607cbf2b","resourcePrimKey":"39111"}]]></dynamic-content>
+		<dynamic-element name="PersonImageURL" instance-id="rnzi" type="text" index-type="keyword">
+			<dynamic-content language-id="en_US"><![CDATA[[$FILE=person.jpg$]]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element name="PersonTestimonial" instance-id="dsey" type="text_box" index-type="text">
 			<dynamic-content language-id="en_US"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum corporis autem id nisi, vitae fugit mollitia dolorem rerum iusto quibusdam dolores error, excepturi nam obcaecati repudiandae veritatis consequuntur deserunt optio officia, nulla accusamus! Nisi voluptatibus iste expedita modi iusto quidem aut mollitia nobis, culpa laborum nemo, eaque blanditiis voluptas.]]></dynamic-content>

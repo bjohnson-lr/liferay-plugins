@@ -29,7 +29,7 @@
 			"nestedFields": [
 				{
 					"label": {
-						"en_US": "Person Photo"
+						"en_US": "Person Image"
 					},
 					"predefinedValue": {
 						"en_US": ""
@@ -44,12 +44,35 @@
 					"fieldNamespace": "ddm",
 					"indexType": "keyword",
 					"localizable": true,
-					"name": "PersonPhoto",
+					"name": "PersonImage",
 					"readOnly": false,
 					"repeatable": false,
 					"required": false,
 					"showLabel": true,
 					"type": "ddm-image"
+				},
+				{
+					"label": {
+						"en_US": "Person Image URL (optional)"
+					},
+					"predefinedValue": {
+						"en_US": ""
+					},
+					"style": {
+						"en_US": ""
+					},
+					"tip": {
+						"en_US": ""
+					},
+					"dataType": "string",
+					"indexType": "text",
+					"localizable": true,
+					"name": "PersonImageURL",
+					"readOnly": false,
+					"repeatable": false,
+					"required": false,
+					"showLabel": true,
+					"type": "text"
 				},
 				{
 					"label": {

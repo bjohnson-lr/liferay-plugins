@@ -1,12 +1,12 @@
 <#assign background_image = "" />
 
-<#if BackgroundImageURL.getData()?? && BackgroundImageURL.getData() != "">
+<#if BackgroundImageURL?? && BackgroundImageURL.getData() != "">
 
 	<#assign background_image = BackgroundImageURL.getData() />
 
 </#if>
 
-<#if BackgroundImage.getData()?? && BackgroundImage.getData() != "">
+<#if BackgroundImage?? && BackgroundImage.getData() != "">
 
 	<#assign background_image = BackgroundImage.getData() />
 
@@ -24,8 +24,23 @@
 		<ul class="cards">
 			<#if ItemHeading.getSiblings()?has_content>
 				<#list ItemHeading.getSiblings() as current_item>
+
+					<#assign item_image = "" />
+
+					<#if current_item.ItemImageURL?? && current_item.ItemImageURL.getData() != "">
+
+						<#assign item_image = current_item.ItemImageURL.getData() />
+
+					</#if>
+
+					<#if current_item.ItemImage?? && current_item.ItemImage.getData() != "">
+
+						<#assign item_image = current_item.ItemImage.getData() />
+
+					</#if>
+
 					<li>
-						<img src="${current_item.ItemImage.getData()}" />
+						<img src="${item_image}" />
 						<h4/>${current_item.getData()}</h4>
 						<p>${current_item.ItemText.getData()}</p>
 					</li>

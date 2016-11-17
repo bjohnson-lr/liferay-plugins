@@ -8,8 +8,8 @@
 		<dynamic-content language-id="en_US"><![CDATA[A little about what we do]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="ItemHeading" type="text" index-type="keyword" instance-id="vajk">
-		<dynamic-element name="ItemImage" instance-id="sian" type="image" index-type="keyword">
-			<dynamic-content language-id="en_US"><![CDATA[{"groupId":"32850","name":"bicycle_compass","alt":"","title":"bicycle_compass","type":"document","uuid":"b0534af9-433c-9075-a171-5d104e35629e","resourcePrimKey":"33327"}]]></dynamic-content>
+		<dynamic-element name="ItemImageURL" instance-id="sian" type="text" index-type="keyword">
+			<dynamic-content language-id="en_US"><![CDATA[[$FILE=bicycle_compass.png$]]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element name="ItemText" instance-id="jnva" type="text_box" index-type="text">
 			<dynamic-content language-id="en_US"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur incidunt, obcaecati velit ducimus eligendi eius veritatis porro deleniti. Quia, dolorem?]]></dynamic-content>
@@ -17,8 +17,8 @@
 		<dynamic-content language-id="en_US"><![CDATA[Item 1]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="ItemHeading" type="text" index-type="keyword" instance-id="hpov">
-		<dynamic-element name="ItemImage" instance-id="qnjm" type="image" index-type="keyword">
-			<dynamic-content language-id="en_US"><![CDATA[{"groupId":"32850","name":"camera_icon","alt":"","title":"camera_icon","type":"document","uuid":"58fb1ad2-2c87-18e5-efea-feee80e9d393","resourcePrimKey":"33327"}]]></dynamic-content>
+		<dynamic-element name="ItemImageURL" instance-id="qnjm" type="text" index-type="keyword">
+			<dynamic-content language-id="en_US"><![CDATA[[$FILE=camera_icon.png$]]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element name="ItemText" instance-id="kbtg" type="text_box" index-type="text">
 			<dynamic-content language-id="en_US"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur incidunt, obcaecati velit ducimus eligendi eius veritatis porro deleniti. Quia, dolorem?]]></dynamic-content>
@@ -26,8 +26,8 @@
 		<dynamic-content language-id="en_US"><![CDATA[Item 2]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="ItemHeading" type="text" index-type="keyword" instance-id="gxzk">
-		<dynamic-element name="ItemImage" instance-id="xhqw" type="image" index-type="keyword">
-			<dynamic-content language-id="en_US"><![CDATA[{"groupId":"32850","name":"icon_compass","alt":"","title":"icon_compass","type":"document","uuid":"612936fe-383e-1963-4107-cd6b6c697628","resourcePrimKey":"33327"}]]></dynamic-content>
+		<dynamic-element name="ItemImageURL" instance-id="xhqw" type="text" index-type="keyword">
+			<dynamic-content language-id="en_US"><![CDATA[[$FILE=icon_compass.png$]]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element name="ItemText" instance-id="rlxt" type="text_box" index-type="text">
 			<dynamic-content language-id="en_US"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur incidunt, obcaecati velit ducimus eligendi eius veritatis porro deleniti. Quia, dolorem?]]></dynamic-content>
@@ -36,9 +36,6 @@
 	</dynamic-element>
 	<dynamic-element name="BannerSize" type="list" index-type="keyword" instance-id="sega">
 		<dynamic-content language-id="en_US"><![CDATA[medium]]></dynamic-content>
-	</dynamic-element>
-	<dynamic-element name="BackgroundImage" type="image" index-type="keyword" instance-id="lakt">
-		<dynamic-content language-id="en_US"><![CDATA[{}]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="BackgroundImageURL" type="text" index-type="keyword" instance-id="yarz">
 		<dynamic-content language-id="en_US"><![CDATA[[$FILE=notebook-computer-chill-relax.jpg$]]]></dynamic-content>

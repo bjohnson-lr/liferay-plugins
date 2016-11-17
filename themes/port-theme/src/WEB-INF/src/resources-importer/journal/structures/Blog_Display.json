@@ -237,6 +237,29 @@
 					"required": false,
 					"showLabel": true,
 					"type": "ddm-image"
+				},
+				{
+					"label": {
+						"en_US": "Image URL (optional)"
+					},
+					"predefinedValue": {
+						"en_US": ""
+					},
+					"style": {
+						"en_US": ""
+					},
+					"tip": {
+						"en_US": ""
+					},
+					"dataType": "string",
+					"indexType": "keyword",
+					"localizable": true,
+					"name": "ImageURL",
+					"readOnly": false,
+					"repeatable": false,
+					"required": false,
+					"showLabel": true,
+					"type": "text"
 				}
 			]
 		}

@@ -14,8 +14,8 @@
 		<dynamic-content language-id="en_US"><![CDATA[2@private@32872]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="Thumbnail" type="text" index-type="keyword" instance-id="ptui">
-		<dynamic-element name="ThumbnailImage" instance-id="isbc" type="image" index-type="keyword">
-			<dynamic-content language-id="en_US"><![CDATA[{"groupId":"32850","name":"card_thumbnail","alt":"","title":"card_thumbnail","type":"document","uuid":"9ad651a3-bbce-0110-8579-916abd8df1e7","resourcePrimKey":"32951"}]]></dynamic-content>
+		<dynamic-element name="ThumbnailImageURL" instance-id="isbc" type="text" index-type="keyword">
+			<dynamic-content language-id="en_US"><![CDATA[[$FILE=card_thumbnail.jpg$]]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element name="ThumbnailLink" instance-id="evlb" type="link_to_layout" index-type="keyword">
 			<dynamic-content language-id="en_US"><![CDATA[1@private@32872]]></dynamic-content>
@@ -23,8 +23,8 @@
 		<dynamic-content language-id="en_US"><![CDATA[Fun stuff]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="Thumbnail" type="text" index-type="keyword" instance-id="kwyp">
-		<dynamic-element name="ThumbnailImage" instance-id="smyw" type="image" index-type="keyword">
-			<dynamic-content language-id="en_US"><![CDATA[{"groupId":"32850","name":"card_thumbnail","alt":"","title":"card_thumbnail","type":"document","uuid":"9ad651a3-bbce-0110-8579-916abd8df1e7","resourcePrimKey":"32951"}]]></dynamic-content>
+		<dynamic-element name="ThumbnailImageURL" instance-id="smyw" type="text" index-type="keyword">
+			<dynamic-content language-id="en_US"><![CDATA[[$FILE=card_thumbnail.jpg$]]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element name="ThumbnailLink" instance-id="mvrt" type="link_to_layout" index-type="keyword">
 			<dynamic-content language-id="en_US"><![CDATA[1@private@32872]]></dynamic-content>
@@ -32,8 +32,8 @@
 		<dynamic-content language-id="en_US"><![CDATA[A jar]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="Thumbnail" type="text" index-type="keyword" instance-id="xtwp">
-		<dynamic-element name="ThumbnailImage" instance-id="swks" type="image" index-type="keyword">
-			<dynamic-content language-id="en_US"><![CDATA[{"groupId":"32850","name":"card_thumbnail","alt":"","title":"card_thumbnail","type":"document","uuid":"9ad651a3-bbce-0110-8579-916abd8df1e7","resourcePrimKey":"32951"}]]></dynamic-content>
+		<dynamic-element name="ThumbnailImageURL" instance-id="swks" type="text" index-type="keyword">
+			<dynamic-content language-id="en_US"><![CDATA[[$FILE=card_thumbnail.jpg$]]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element name="ThumbnailLink" instance-id="nbzz" type="link_to_layout" index-type="keyword">
 			<dynamic-content language-id="en_US"><![CDATA[2@private@32872]]></dynamic-content>

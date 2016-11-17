@@ -14,9 +14,23 @@
 
 				<#list BlogTitle.getSiblings() as blog>
 
+					<#assign image = "" />
+
+					<#if blog.ImageURL?? && blog.ImageURL.getData() != "">
+
+						<#assign image = blog.ImageURL.getData() />
+
+					</#if>
+
+					<#if blog.Image?? && blog.Image.getData() != "">
+
+						<#assign image = blog.Image.getData() />
+
+					</#if>
+
 					<li>
 
-						<img src="${blog.Image.getData()}" />
+						<img src="${image}" />
 						<h5>
 							<a href="${blog.LinkToBlogPost.getFriendlyUrl()}">
 								${blog.getData()}
