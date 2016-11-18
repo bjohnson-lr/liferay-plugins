@@ -2,9 +2,7 @@
 
 	<div class="blog-heading">
 		<h1>
-			<a href="${LinkToPost.getUrl()}">
-				${Title.getData()}
-			</a>
+			${Title.getData()}
 		</h1>
 
 		<h5 class="blog-byline">Posted by <span>${Author.getData()}</span> on ${Date.getData()} in <span>${Category.getData()}</span></h5>
