@@ -1,4 +1,4 @@
-<div class="testimonials">
+<div class="group-testimonials testimonials">
 	<ul class="cards">
 		<#if PersonName.getSiblings()?has_content>
 			<#list PersonName.getSiblings() as person>

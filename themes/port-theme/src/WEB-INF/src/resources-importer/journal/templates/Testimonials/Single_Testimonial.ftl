@@ -1,4 +1,4 @@
-<div class="single-testimonial">
+<div class="single-testimonial testimonials">
 	<h4>Testimonials</h4>
 	<#if PersonName?has_content>
 
@@ -17,7 +17,9 @@
 		</#if>
 
 		<img alt="${PersonName.getData()}" src="${person_image}">
-		<p>${PersonName.PersonTestimonial.getData()}</p>
-		<h5>- ${PersonName.getData()}</h5>
+		<div class="testimonial-content">
+			<p>${PersonName.PersonTestimonial.getData()}</p>
+			<h5>- ${PersonName.getData()}</h5>
+		</div>
 	</#if>
 </div>
