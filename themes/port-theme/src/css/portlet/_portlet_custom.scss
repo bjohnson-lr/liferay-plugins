@@ -143,6 +143,8 @@
 	}
 
 	.blog-content {
+
+		h1, h2 {}
 		img {
 			margin-bottom: 10px;
 		}
@@ -189,8 +191,10 @@
 	.single-testimonial {
 		display: flex;
 		flex-wrap: wrap;
+		padding: 20px 0;
 
 		h4 {
+			margin: 0 0 10px;
 			width: 100%;
 		}
 
@@ -204,8 +208,8 @@
 
 		img {
 			height: 100px;
-			width: 100px;
 			object-fit: cover;
+			width: 100px;
 		}
 
 		p {
