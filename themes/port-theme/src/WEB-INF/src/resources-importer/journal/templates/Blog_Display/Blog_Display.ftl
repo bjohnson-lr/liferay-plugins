@@ -1,4 +1,5 @@
 <div class="works-display">
+
 	<div class="heading heading-row">
 		<h2>${Heading.getData()}</h2>
 		<button class="btn">
@@ -7,11 +8,11 @@
 			</a>
 		</button>
 	</div>
+
 	<div class="blog-cards">
 		<ul class="cards">
 
 			<#if BlogTitle.getSiblings()?has_content>
-
 				<#list BlogTitle.getSiblings() as blog>
 
 					<#if blog.Image?? && blog.Image.getData() != "">
@@ -41,9 +42,10 @@
 
 						<a href="${blog.LinkToBlogPost.getFriendlyUrl()}">Read More</a>
 					</li>
-				</#list>
 
+				</#list>
 			</#if>
 		</ul>
 	</div>
+
 </div>

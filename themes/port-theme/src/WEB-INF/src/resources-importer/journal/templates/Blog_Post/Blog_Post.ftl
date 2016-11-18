@@ -2,7 +2,7 @@
 
 	<div class="blog-heading">
 		<h1>
-			<a href="${LinkToPost.getFriendlyUrl()}">
+			<a href="${LinkToPost.getUrl()}">
 				${Title.getData()}
 			</a>
 		</h1>
