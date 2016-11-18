@@ -1,5 +1,6 @@
 {
 	"layoutTemplateId": "1_column",
+	"privatePages": [],
 	"publicPages": [
 		{
 			"columns": [
@@ -99,11 +100,17 @@
 							"groupId": "${groupId}",
 							"portletSetupPortletDecoratorId": "portlet-custom"
 						}
+					},
+					{
+						"portletId": "com_liferay_comment_page_comments_web_portlet_PageCommentsPortlet"
 					}
 				],
 				[
 					{
 						"portletId": "com_liferay_journal_content_search_web_portlet_JournalContentSearchPortlet"
+					},
+					{
+						"portletId": " com_liferay_ratings_page_ratings_web_portlet_PageRatingsPortlet"
 					},
 					{
 						"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
