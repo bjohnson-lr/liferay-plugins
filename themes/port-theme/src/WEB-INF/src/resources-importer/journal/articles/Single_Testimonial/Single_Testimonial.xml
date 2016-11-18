@@ -6,7 +6,7 @@
 			<dynamic-content language-id="en_US"><![CDATA[[$FILE=person.jpg$]]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element name="PersonTestimonial" instance-id="nanj" type="text_box" index-type="text">
-			<dynamic-content language-id="en_US"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum corporis autem id nisi, vitae fugit mollitia dolorem rerum iusto quibusdam dolores error, excepturi nam obcaecati repudiandae veritatis consequuntur deserunt optio officia, nulla accusamus! Nisi voluptatibus iste expedita modi iusto quidem aut mollitia nobis, culpa laborum nemo, eaque blanditiis voluptas.]]></dynamic-content>
+			<dynamic-content language-id="en_US"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum corporis autem id nisi, vitae fugit mollitia dolorem rerum iusto quibusdam dolores error.]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-content language-id="en_US"><![CDATA[Person]]></dynamic-content>
 	</dynamic-element>
