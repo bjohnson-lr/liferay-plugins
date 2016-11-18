@@ -126,7 +126,7 @@
 							{
 								"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
 								"portletPreferences": {
-									"articleId": "Author_Blog_Header.xml",
+									"articleId": "Author_1_Blog_Header.xml",
 									"groupId": "${groupId}",
 									"portletSetupPortletDecoratorId": "portlet-custom"
 								}
@@ -148,6 +148,14 @@
 						[
 							{
 								"portletId": " com_liferay_ratings_page_ratings_web_portlet_PageRatingsPortlet"
+							},
+							{
+								"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+								"portletPreferences": {
+									"articleId": "Author_1_Small_Bio.xml",
+									"groupId": "${groupId}",
+									"portletSetupPortletDecoratorId": "portlet-custom"
+								}
 							}
 						]
 					],

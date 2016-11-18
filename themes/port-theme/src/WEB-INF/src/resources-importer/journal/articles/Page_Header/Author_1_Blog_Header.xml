@@ -2,6 +2,6 @@
 
 <root available-locales="en_US" default-locale="en_US">
 	<dynamic-element name="Heading" type="text" index-type="keyword" instance-id="kzro">
-		<dynamic-content language-id="en_US"><![CDATA[Author's Blog]]></dynamic-content>
+		<dynamic-content language-id="en_US"><![CDATA[Author One Blog]]></dynamic-content>
 	</dynamic-element>
 </root>
