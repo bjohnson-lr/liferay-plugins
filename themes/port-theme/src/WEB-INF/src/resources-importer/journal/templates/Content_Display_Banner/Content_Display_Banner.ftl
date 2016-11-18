@@ -1,14 +1,14 @@
-<#assign background_image = "" />
-
-<#if BackgroundImageURL?? && BackgroundImageURL.getData() != "">
-
-	<#assign background_image = BackgroundImageURL.getData() />
-
-</#if>
-
 <#if BackgroundImage?? && BackgroundImage.getData() != "">
 
 	<#assign background_image = BackgroundImage.getData() />
+
+<#elseif BackgroundImageURL?? && BackgroundImageURL.getData() != "">
+
+	<#assign background_image = BackgroundImageURL.getData() />
+
+<#else>
+
+	<#assign background_image = "" />
 
 </#if>
 
@@ -25,17 +25,17 @@
 			<#if ItemHeading.getSiblings()?has_content>
 				<#list ItemHeading.getSiblings() as current_item>
 
-					<#assign item_image = "" />
-
-					<#if current_item.ItemImageURL?? && current_item.ItemImageURL.getData() != "">
-
-						<#assign item_image = current_item.ItemImageURL.getData() />
-
-					</#if>
-
 					<#if current_item.ItemImage?? && current_item.ItemImage.getData() != "">
 
 						<#assign item_image = current_item.ItemImage.getData() />
+
+					<#elseif current_item.ItemImageURL?? && current_item.ItemImageURL.getData() != "">
+
+							<#assign item_image = current_item.ItemImageURL.getData() />
+
+					<#else>
+
+						<#assign item_image = "" />
 
 					</#if>
 

@@ -3,17 +3,17 @@
 		<#if PersonName.getSiblings()?has_content>
 			<#list PersonName.getSiblings() as person>
 
-				<#assign person_image = "" />
-
-				<#if person.PersonImageURL?? && person.PersonImageURL.getData() != "">
-
-					<#assign person_image = person.PersonImageURL.getData() />
-
-				</#if>
-
 				<#if person.PersonImage?? && person.PersonImage.getData() != "">
 
 					<#assign person_image = person.PersonImage.getData() />
+
+				<#elseif person.PersonImageURL?? && person.PersonImageURL.getData() != "">
+
+						<#assign person_image = person.PersonImageURL.getData() />
+
+				<#else>
+
+					<#assign person_image = "" />
 
 				</#if>
 

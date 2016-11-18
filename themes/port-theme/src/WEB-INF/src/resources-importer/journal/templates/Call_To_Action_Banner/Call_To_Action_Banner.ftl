@@ -1,14 +1,14 @@
-<#assign background_image = "" />
-
-<#if BackgroundImageURL.getData()?? && BackgroundImageURL.getData() != "">
-
-	<#assign background_image = BackgroundImageURL.getData() />
-
-</#if>
-
 <#if BackgroundImage.getData()?? && BackgroundImage.getData() != "">
 
 	<#assign background_image = BackgroundImage.getData() />
+
+<#elseif BackgroundImageURL.getData()?? && BackgroundImageURL.getData() != "">
+
+	<#assign background_image = BackgroundImageURL.getData() />
+
+<#else>
+
+	<#assign background_image = "" />
 
 </#if>
 

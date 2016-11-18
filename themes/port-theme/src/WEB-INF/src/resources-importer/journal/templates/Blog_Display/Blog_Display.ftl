@@ -14,17 +14,17 @@
 
 				<#list BlogTitle.getSiblings() as blog>
 
-					<#assign image = "" />
-
-					<#if blog.ImageURL?? && blog.ImageURL.getData() != "">
-
-						<#assign image = blog.ImageURL.getData() />
-
-					</#if>
-
 					<#if blog.Image?? && blog.Image.getData() != "">
 
 						<#assign image = blog.Image.getData() />
+
+					<#elseif blog.ImageURL?? && blog.ImageURL.getData() != "">
+
+						<#assign image = blog.ImageURL.getData() />
+
+					<#else>
+
+						<#assign image = "" />
 
 					</#if>
 

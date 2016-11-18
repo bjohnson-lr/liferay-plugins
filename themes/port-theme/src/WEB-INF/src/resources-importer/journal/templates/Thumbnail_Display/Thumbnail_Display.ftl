@@ -16,17 +16,16 @@
 			<#if Thumbnail.getSiblings()?has_content>
 				<#list Thumbnail.getSiblings() as current_thumbnail>
 
-					<#assign thumbnail_image = "" />
-
-					<#if current_thumbnail.ThumbnailImageURL?? && current_thumbnail.ThumbnailImageURL.getData() != "">
-
-						<#assign thumbnail_image = current_thumbnail.ThumbnailImageURL.getData() />
-
-					</#if>
-
 					<#if current_thumbnail.ThumbnailImage?? && current_thumbnail.ThumbnailImage.getData() != "">
 
 						<#assign thumbnail_image = current_thumbnail.ThumbnailImage.getData() />
+
+					<#elseif current_thumbnail.ThumbnailImageURL?? && current_thumbnail.ThumbnailImageURL.getData() != "">
+
+							<#assign thumbnail_image = current_thumbnail.ThumbnailImageURL.getData() />
+					<#else>
+
+						<#assign thumbnail_image = "" />
 
 					</#if>
 
