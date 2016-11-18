@@ -41,7 +41,9 @@
 
 					<li>
 						<img src="${item_image}" />
+
 						<h4/>${current_item.getData()}</h4>
+
 						<p>${current_item.ItemText.getData()}</p>
 					</li>
 				</#list>

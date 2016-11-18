@@ -18,6 +18,7 @@
 
 		<div class="call-to-action">
 			<h3>${CallToAction.getData()}</h3>
+
 			<button class="btn btn-complement">
 				<a href="${LinkToPage.getFriendlyUrl()}">
 					${ButtonText.getData()}

@@ -19,7 +19,9 @@
 
 				<li>
 					<img  alt="${person.getData()}" src="${person_image}">
+
 					<p>"${person.PersonTestimonial.getData()}"</p>
+
 					<h5>- ${person.getData()}</h5>
 				</li>
 

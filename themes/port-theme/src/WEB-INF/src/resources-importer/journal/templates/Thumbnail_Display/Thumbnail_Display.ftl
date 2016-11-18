@@ -1,15 +1,21 @@
 <div class="works-display">
+
 	<div class="heading">
 		<h2>${Heading.getData()}</h2>
+
 		<div class="heading-row">
 			<h4>${Subheading.getData()}</h4>
+
 			<button class="btn">
 				<a href="${ButtonLink.getFriendlyUrl()}">
 					${ButtonText.getData()}
 				</a>
 			</button>
+
 		</div>
+
 	</div>
+
 	<div class="works-cards">
 		<ul class="cards">
 
@@ -31,15 +37,17 @@
 
 					<li>
 						<div class="card-background card-item photo-bg" style="background-image: url(${thumbnail_image})">
-							<div class="overlay">
-								<button class="btn">
 
+							<div class="overlay">
+
+								<button class="btn">
 									<a href="${current_thumbnail.ThumbnailLink.getFriendlyUrl()}">
 										${current_thumbnail.getData()}
 									</a>
-
 								</button>
+
 							</div>
+
 						</div>
 					</li>
 
@@ -48,4 +56,5 @@
 
 		</ul>
 	</div>
+
 </div>
