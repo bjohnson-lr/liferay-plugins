@@ -96,13 +96,10 @@
 					{
 						"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
 						"portletPreferences": {
-							"articleId": "Sample_Post.xml",
+							"articleId": "Sample_Post_Preview.xml",
 							"groupId": "${groupId}",
 							"portletSetupPortletDecoratorId": "portlet-custom"
 						}
-					},
-					{
-						"portletId": "com_liferay_comment_page_comments_web_portlet_PageCommentsPortlet"
 					}
 				],
 				[
