@@ -121,6 +121,37 @@
 			],
 			"layouts": [
 				{
+					"columns": [
+						[
+							{
+								"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+								"portletPreferences": {
+									"articleId": "Author_Blog_Header.xml",
+									"groupId": "${groupId}",
+									"portletSetupPortletDecoratorId": "portlet-custom"
+								}
+							}
+						],
+						[
+							{
+								"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+								"portletPreferences": {
+									"articleId": "Sample_Post.xml",
+									"groupId": "${groupId}",
+									"portletSetupPortletDecoratorId": "portlet-custom"
+								}
+							},
+							{
+								"portletId": "com_liferay_comment_page_comments_web_portlet_PageCommentsPortlet"
+							}
+						],
+						[
+							{
+								"portletId": " com_liferay_ratings_page_ratings_web_portlet_PageRatingsPortlet"
+							}
+						]
+					],
+					"layoutTemplateId": "port_1_2_limited",
 					"friendlyURL": "/benjohnson",
 					"name": "Ben Johnson",
 					"title": "Ben Johnson"
