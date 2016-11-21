@@ -3,11 +3,11 @@
 	<div class="bio-content">
 		<#if PersonImage?? && PersonImage.getData() != "">
 
-			<img  alt="${Name.getData()}" src="${person_image}">
+			<img  alt="${Name.getData()}" src="${PersonImage.getData()}">
 
 		<#else>
 
-			<img  alt="${Name.getData()}" src="/o/port-theme/images/person_2.jpg">
+			<img  alt="${Name.getData()}" src="${PersonDefaultURL.getData()}">
 
 		</#if>
 

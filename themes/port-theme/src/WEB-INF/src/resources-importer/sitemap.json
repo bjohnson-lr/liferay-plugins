@@ -192,6 +192,19 @@
 									"portletSetupPortletDecoratorId": "portlet-custom"
 								}
 							}
+						],
+						[
+							{
+								"portletId": " com_liferay_ratings_page_ratings_web_portlet_PageRatingsPortlet"
+							},
+							{
+								"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+								"portletPreferences": {
+									"articleId": "Author_2_Small_Bio.xml",
+									"groupId": "${groupId}",
+									"portletSetupPortletDecoratorId": "portlet-custom"
+								}
+							}
 						]
 					],
 					"layoutTemplateId": "port_1_2_limited",
