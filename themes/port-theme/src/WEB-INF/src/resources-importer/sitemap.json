@@ -64,7 +64,7 @@
 					{
 						"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
 						"portletPreferences": {
-							"articleId": "About_Us_Header.xml",
+							"articleId": "Portfolio_Header.xml",
 							"groupId": "${groupId}",
 							"portletSetupPortletDecoratorId": "portlet-custom"
 						}
