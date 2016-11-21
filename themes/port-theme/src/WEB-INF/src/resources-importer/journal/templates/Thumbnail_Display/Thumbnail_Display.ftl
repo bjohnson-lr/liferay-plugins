@@ -13,7 +13,7 @@
 					/>
 				<#else>
 					<#assign
-						button_link = "./about"
+						button_link = "./portfolio"
 					/>
 				</#if>
 
@@ -53,7 +53,7 @@
 										/>
 									<#else>
 										<#assign
-											thumbnail_link = "./about"
+											thumbnail_link = "./portfolio"
 										/>
 									</#if>
 

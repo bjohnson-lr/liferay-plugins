@@ -71,9 +71,9 @@
 					}
 				]
 			],
-			"friendlyURL": "/about",
-			"name": "About Us",
-			"title": "About Us"
+			"friendlyURL": "/portfolio",
+			"name": "Portfolio",
+			"title": "Portfolio"
 		},
 		{
 			"friendlyURL": "/blogs",

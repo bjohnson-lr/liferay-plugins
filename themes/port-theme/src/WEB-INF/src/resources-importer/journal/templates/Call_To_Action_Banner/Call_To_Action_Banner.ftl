@@ -17,7 +17,7 @@
 				<#if LinkToPage??>
 					<#assign link_to_page = LinkToPage.getData() />
 				<#else>
-					<#assign link_to_page = "./about" />
+					<#assign link_to_page = "./portfolio" />
 				</#if>
 
 
