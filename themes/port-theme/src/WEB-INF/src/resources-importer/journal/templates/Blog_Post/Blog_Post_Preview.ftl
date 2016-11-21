@@ -2,7 +2,17 @@
 
 	<div class="blog-heading">
 		<h1>
-			<a href="${LinkToPost.getData()}">
+			<#if LinkToPost??>
+				<#assign
+					link_to_post = LinkToPost.getData()
+				/>
+			<#else>
+				<#assign
+					link_to_post = "./benjohnson"
+				/>
+			</#if>
+
+			<a href="${link_to_post}">
 				${Title.getData()}
 			</a>
 		</h1>
