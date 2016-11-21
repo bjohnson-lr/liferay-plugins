@@ -8,8 +8,8 @@
 		<dynamic-content language-id="en_US"><![CDATA[A little about what we do]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="ItemHeading" type="text" index-type="keyword" instance-id="vajk">
-		<dynamic-element name="ItemImageURL" instance-id="sian" type="text" index-type="keyword">
-			<dynamic-content language-id="en_US"><![CDATA[[$FILE=bicycle_compass.png$]]]></dynamic-content>
+		<dynamic-element name="DefaultImage" instance-id="sian" type="text" index-type="keyword">
+			<dynamic-content language-id="en_US"><![CDATA[bicycle_compass.png]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element name="ItemText" instance-id="jnva" type="text_box" index-type="text">
 			<dynamic-content language-id="en_US"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur incidunt, obcaecati velit ducimus eligendi eius veritatis porro deleniti. Quia, dolorem?]]></dynamic-content>
@@ -17,8 +17,8 @@
 		<dynamic-content language-id="en_US"><![CDATA[Item 1]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="ItemHeading" type="text" index-type="keyword" instance-id="hpov">
-		<dynamic-element name="ItemImageURL" instance-id="qnjm" type="text" index-type="keyword">
-			<dynamic-content language-id="en_US"><![CDATA[[$FILE=camera_icon.png$]]]></dynamic-content>
+		<dynamic-element name="DefaultImage" instance-id="qnjm" type="text" index-type="keyword">
+			<dynamic-content language-id="en_US"><![CDATA[camera_icon.png]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element name="ItemText" instance-id="kbtg" type="text_box" index-type="text">
 			<dynamic-content language-id="en_US"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur incidunt, obcaecati velit ducimus eligendi eius veritatis porro deleniti. Quia, dolorem?]]></dynamic-content>
@@ -26,8 +26,8 @@
 		<dynamic-content language-id="en_US"><![CDATA[Item 2]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="ItemHeading" type="text" index-type="keyword" instance-id="gxzk">
-		<dynamic-element name="ItemImageURL" instance-id="xhqw" type="text" index-type="keyword">
-			<dynamic-content language-id="en_US"><![CDATA[[$FILE=icon_compass.png$]]]></dynamic-content>
+		<dynamic-element name="DefaultImage" instance-id="xhqw" type="text" index-type="keyword">
+			<dynamic-content language-id="en_US"><![CDATA[icon_compass.png]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element name="ItemText" instance-id="rlxt" type="text_box" index-type="text">
 			<dynamic-content language-id="en_US"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur incidunt, obcaecati velit ducimus eligendi eius veritatis porro deleniti. Quia, dolorem?]]></dynamic-content>
