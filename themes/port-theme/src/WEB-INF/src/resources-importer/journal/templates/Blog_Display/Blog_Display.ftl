@@ -4,7 +4,17 @@
 		<h2>${Heading.getData()}</h2>
 
 		<button class="btn">
-			<a href="${LinkToBlogPage.getData()}">
+			<#if LinkToBlogPage?? && LinkToBlogPage.getData() != "">
+				<#assign
+					blog_url = LinkToBlogPage.getData()
+				/>
+			<#else>
+				<#assign
+					blog_url = "./blogs"
+				/>
+			</#if>
+
+			<a href="${blog_url}">
 				${ButtonText.getData()}
 			</a>
 		</button>
@@ -14,6 +24,16 @@
 		<ul class="cards">
 			<#if BlogTitle.getSiblings()?has_content>
 				<#list BlogTitle.getSiblings() as blog>
+
+					<#if blog.LinkToBlogPost??>
+						<#assign
+							current_blog_url = blog.LinkToBlogPost.getData()
+						/>
+					<#else>
+						<#assign
+							current_blog_url = blog.DefaultBlogLink.getData()
+						/>
+					</#if>
 
 					<li>
 
@@ -28,7 +48,7 @@
 						</#if>
 
 						<h5>
-							<a href="${blog.LinkToBlogPost.getData()}">
+							<a href="${current_blog_url}">
 								${blog.getData()}
 							</a>
 						</h5>
@@ -37,7 +57,7 @@
 
 						<p>${blog.Preview.getData()}</p>
 
-						<a href="${blog.LinkToBlogPost.getData()}">Read More</a>
+						<a href="${current_blog_url}">Read More</a>
 					</li>
 
 				</#list>

@@ -7,12 +7,9 @@
 	<dynamic-element name="ButtonText" type="text" index-type="keyword" instance-id="xsqg">
 		<dynamic-content language-id="en_US"><![CDATA[View All]]></dynamic-content>
 	</dynamic-element>
-	<dynamic-element name="LinkToBlogPage" type="text" index-type="keyword" instance-id="tudn">
-		<dynamic-content language-id="en_US"><![CDATA[/blogs]]></dynamic-content>
-	</dynamic-element>
 	<dynamic-element name="BlogTitle" type="text" index-type="keyword" instance-id="vfaw">
-		<dynamic-element name="LinkToBlogPost" instance-id="bbxg" type="text" index-type="keyword">
-			<dynamic-content language-id="en_US"><![CDATA[/blogs]]></dynamic-content>
+		<dynamic-element name="DefaultBlogLink" instance-id="bbxg" type="text" index-type="keyword">
+			<dynamic-content language-id="en_US"><![CDATA[./blogs]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element name="Author" instance-id="ifdu" type="text" index-type="keyword">
 			<dynamic-content language-id="en_US"><![CDATA[Ben]]></dynamic-content>
@@ -29,8 +26,8 @@
 		<dynamic-content language-id="en_US"><![CDATA[Blog Title]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="BlogTitle" type="text" index-type="keyword" instance-id="kifz">
-		<dynamic-element name="LinkToBlogPost" instance-id="tamj" type="text" index-type="keyword">
-			<dynamic-content language-id="en_US"><![CDATA[/blogs]]></dynamic-content>
+		<dynamic-element name="DefaultBlogLink" instance-id="tamj" type="text" index-type="keyword">
+			<dynamic-content language-id="en_US"><![CDATA[./blogs]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element name="Author" instance-id="ebag" type="text" index-type="keyword">
 			<dynamic-content language-id="en_US"><![CDATA[Jonny]]></dynamic-content>
@@ -47,8 +44,8 @@
 		<dynamic-content language-id="en_US"><![CDATA[Blog Title 2]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="BlogTitle" type="text" index-type="keyword" instance-id="xbkb">
-		<dynamic-element name="LinkToBlogPost" instance-id="caoj" type="text" index-type="keyword">
-			<dynamic-content language-id="en_US"><![CDATA[/blogs]]></dynamic-content>
+		<dynamic-element name="DefaultBlogLink" instance-id="caoj" type="text" index-type="keyword">
+			<dynamic-content language-id="en_US"><![CDATA[./blogs]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element name="Author" instance-id="kdgk" type="text" index-type="keyword">
 			<dynamic-content language-id="en_US"><![CDATA[Benjamin]]></dynamic-content>
