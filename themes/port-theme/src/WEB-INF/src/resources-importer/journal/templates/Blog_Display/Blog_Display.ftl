@@ -4,7 +4,7 @@
 		<h2>${Heading.getData()}</h2>
 
 		<button class="btn">
-			<a href="${LinkToBlogPage.getUrl()}">
+			<a href="${LinkToBlogPage.getData()}">
 				${ButtonText.getData()}
 			</a>
 		</button>
@@ -33,7 +33,7 @@
 						<img src="${image}" />
 
 						<h5>
-							<a href="${blog.LinkToBlogPost.getUrl()}">
+							<a href="${blog.LinkToBlogPost.getData()}">
 								${blog.getData()}
 							</a>
 						</h5>
@@ -42,7 +42,7 @@
 
 						<p>${blog.Preview.getData()}</p>
 
-						<a href="${blog.LinkToBlogPost.getUrl()}">Read More</a>
+						<a href="${blog.LinkToBlogPost.getData()}">Read More</a>
 					</li>
 
 				</#list>

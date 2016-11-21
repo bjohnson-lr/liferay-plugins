@@ -7,7 +7,7 @@
 			<h4>${Subheading.getData()}</h4>
 
 			<button class="btn">
-				<a href="${ButtonLink.getFriendlyUrl()}">
+				<a href="${ButtonLink.getData()}">
 					${ButtonText.getData()}
 				</a>
 			</button>
@@ -41,7 +41,7 @@
 							<div class="overlay">
 
 								<button class="btn">
-									<a href="${current_thumbnail.ThumbnailLink.getFriendlyUrl()}">
+									<a href="${current_thumbnail.ThumbnailLink.getData()}">
 										${current_thumbnail.getData()}
 									</a>
 								</button>

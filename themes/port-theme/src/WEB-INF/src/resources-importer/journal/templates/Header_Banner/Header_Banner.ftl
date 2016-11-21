@@ -1,18 +1,12 @@
-<#if BackgroundImage.getData()?? && BackgroundImage.getData() != "">
+<#if BackgroundImage?? && BackgroundImage.getData() != "">
 
-	<#assign background_image = BackgroundImage.getData() />
-
-<#elseif BackgroundImageURL.getData()?? && BackgroundImageURL.getData() != "">
-
-	<#assign background_image = BackgroundImageURL.getData() />
+	<div class="${BannerSize.getData()}-banner jumbotron photo-bg" style="background-image: url(${BackgroundImage.getData()})">
 
 <#else>
 
-	<#assign background_image = "" />
+	<div class="${BannerSize.getData()}-banner jumbotron photo-bg header-banner-default-bg">
 
 </#if>
-
-<div class="${BannerSize.getData()}-banner jumbotron photo-bg" style="background-image: url(${background_image})">
 
 		<div class="banner-content">
 			<h1>${Heading.getData()}</h1>

@@ -28,6 +28,8 @@
 	}
 
 	.full-page-banner {
+
+
 		@include align-items(center);
 
 		border-radius: 0;
@@ -125,5 +127,19 @@
 				color: rgba(255, 255, 255, 1);
 			}
 		}
+	}
+
+	/* Default photo backgrounds for banner portlets */
+
+	.header-banner-default-bg {
+		background-image: url(../images/port_banner.jpg);
+	}
+
+	.services-default-bg {
+		background-image: url(../images/notebook_computer_chill_relax.jpg);
+	}
+
+	.call-to-action-default-bg {
+		background-image: url(../images/traffic.jpg);
 	}
 }

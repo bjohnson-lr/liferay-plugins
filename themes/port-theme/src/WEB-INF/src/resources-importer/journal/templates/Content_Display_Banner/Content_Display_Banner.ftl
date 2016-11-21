@@ -1,18 +1,13 @@
 <#if BackgroundImage?? && BackgroundImage.getData() != "">
 
-	<#assign background_image = BackgroundImage.getData() />
-
-<#elseif BackgroundImageURL?? && BackgroundImageURL.getData() != "">
-
-	<#assign background_image = BackgroundImageURL.getData() />
+	<div class="photo-bg services site-banner" style="background-image: url(${background_image})">
 
 <#else>
 
-	<#assign background_image = "" />
+	<div class="photo-bg services services-default-bg site-banner">
 
 </#if>
 
-<div class="photo-bg services site-banner" style="background-image: linear-gradient(rgba(90, 140, 150, 0.6), rgba(90, 140, 150, 0.6)), url(${background_image})">
 
 	<div class="overlay">
 

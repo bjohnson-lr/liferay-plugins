@@ -41,6 +41,6 @@
 		]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="LinkToPost" type="link_to_layout" index-type="keyword" instance-id="wwns">
-		<dynamic-content language-id="en_US"><![CDATA[4@private-group@48002]]></dynamic-content>
+		<dynamic-content language-id="en_US"><![CDATA[123455]]></dynamic-content>
 	</dynamic-element>
 </root>

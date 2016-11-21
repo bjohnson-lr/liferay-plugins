@@ -2,7 +2,7 @@
 
 	<div class="blog-heading">
 		<h1>
-			<a href="${LinkToPost.getUrl()}">
+			<a href="${LinkToPost.getData()}">
 				${Title.getData()}
 			</a>
 		</h1>

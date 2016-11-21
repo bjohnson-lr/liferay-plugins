@@ -86,8 +86,7 @@
 			"tip": {
 				"en_US": ""
 			},
-			"dataType": "link-to-page",
-			"fieldNamespace": "ddm",
+			"dataType": "text",
 			"indexType": "keyword",
 			"localizable": true,
 			"name": "ButtonLink",
@@ -95,7 +94,7 @@
 			"repeatable": false,
 			"required": false,
 			"showLabel": true,
-			"type": "ddm-link-to-page"
+			"type": "text"
 		},
 		{
 			"label": {
@@ -180,8 +179,7 @@
 					"tip": {
 						"en_US": ""
 					},
-					"dataType": "link-to-page",
-					"fieldNamespace": "ddm",
+					"dataType": "text",
 					"indexType": "keyword",
 					"localizable": true,
 					"name": "ThumbnailLink",
@@ -189,7 +187,7 @@
 					"repeatable": false,
 					"required": false,
 					"showLabel": true,
-					"type": "ddm-link-to-page"
+					"type": "text"
 				}
 			]
 		}
