@@ -3,19 +3,14 @@
 	<div class="bio-content">
 		<#if PersonImage?? && PersonImage.getData() != "">
 
-			<#assign person_image = PersonImage.getData() />
-
-		<#elseif PersonImageURL?? && PersonImageURL.getData() != "">
-
-			<#assign person_image = PersonImageURL.getData() />
+			<img  alt="${Name.getData()}" src="${person_image}">
 
 		<#else>
 
-			<#assign person_image = "" />
+			<img  alt="${Name.getData()}" src="/o/port-theme/images/person_2.jpg">
 
 		</#if>
 
-		<img  alt="${Name.getData()}" src="${person_image}">
 		<p>${Bio.getData()}</p>
 	</div>
 </div>
