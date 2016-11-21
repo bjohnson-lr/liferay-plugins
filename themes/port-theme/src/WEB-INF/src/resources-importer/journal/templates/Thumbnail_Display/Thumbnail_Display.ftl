@@ -7,7 +7,17 @@
 			<h4>${Subheading.getData()}</h4>
 
 			<button class="btn">
-				<a href="${ButtonLink.getData()}">
+				<#if ButtonLink??>
+					<#assign
+						button_link = ButtonLink.getData()
+					/>
+				<#else>
+					<#assign
+						button_link = "./about"
+					/>
+				</#if>
+
+				<a href="${button_link}">
 					${ButtonText.getData()}
 				</a>
 			</button>
@@ -37,7 +47,17 @@
 							<div class="overlay">
 
 								<button class="btn">
-									<a href="${current_thumbnail.ThumbnailLink.getData()}">
+									<#if current_thumbnail.ThumbnailLink??>
+										<#assign
+											thumbnail_link = current_thumbnail.ThumbnailLink.getData()
+										/>
+									<#else>
+										<#assign
+											thumbnail_link = "./about"
+										/>
+									</#if>
+
+									<a href="${thumbnail_link}">
 										${current_thumbnail.getData()}
 									</a>
 								</button>

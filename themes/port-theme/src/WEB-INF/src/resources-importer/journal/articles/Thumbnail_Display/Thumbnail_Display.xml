@@ -10,15 +10,9 @@
 	<dynamic-element name="ButtonText" type="text" index-type="keyword" instance-id="wbxh">
 		<dynamic-content language-id="en_US"><![CDATA[View All]]></dynamic-content>
 	</dynamic-element>
-	<dynamic-element name="ButtonLink" type="text" index-type="keyword" instance-id="cddw">
-		<dynamic-content language-id="en_US"><![CDATA[12345]]></dynamic-content>
-	</dynamic-element>
 	<dynamic-element name="Thumbnail" type="text" index-type="keyword" instance-id="ptui">
 		<dynamic-element name="ThumbnailImageURL" instance-id="isbc" type="text" index-type="keyword">
 			<dynamic-content language-id="en_US"><![CDATA[[$FILE=card_thumbnail.jpg$]]]></dynamic-content>
-		</dynamic-element>
-		<dynamic-element name="ThumbnailLink" instance-id="evlb" type="text" index-type="keyword">
-			<dynamic-content language-id="en_US"><![CDATA[123545]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-content language-id="en_US"><![CDATA[Fun stuff]]></dynamic-content>
 	</dynamic-element>
@@ -26,17 +20,11 @@
 		<dynamic-element name="ThumbnailImageURL" instance-id="smyw" type="text" index-type="keyword">
 			<dynamic-content language-id="en_US"><![CDATA[[$FILE=card_thumbnail.jpg$]]]></dynamic-content>
 		</dynamic-element>
-		<dynamic-element name="ThumbnailLink" instance-id="mvrt" type="text" index-type="keyword">
-			<dynamic-content language-id="en_US"><![CDATA[12345]]></dynamic-content>
-		</dynamic-element>
 		<dynamic-content language-id="en_US"><![CDATA[A jar]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="Thumbnail" type="text" index-type="keyword" instance-id="xtwp">
 		<dynamic-element name="ThumbnailImageURL" instance-id="swks" type="text" index-type="keyword">
 			<dynamic-content language-id="en_US"><![CDATA[[$FILE=card_thumbnail.jpg$]]]></dynamic-content>
-		</dynamic-element>
-		<dynamic-element name="ThumbnailLink" instance-id="nbzz" type="text" index-type="keyword">
-			<dynamic-content language-id="en_US"><![CDATA[12345]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-content language-id="en_US"><![CDATA[Rainy Mondays]]></dynamic-content>
 	</dynamic-element>
