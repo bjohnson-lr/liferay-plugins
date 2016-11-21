@@ -23,7 +23,7 @@
 			"name": "CallToAction",
 			"readOnly": false,
 			"repeatable": false,
-			"required": false,
+			"required": true,
 			"showLabel": true,
 			"type": "text"
 		},
@@ -46,7 +46,7 @@
 			"name": "ButtonText",
 			"readOnly": false,
 			"repeatable": false,
-			"required": false,
+			"required": true,
 			"showLabel": true,
 			"type": "text"
 		},
@@ -69,7 +69,7 @@
 			"name": "LinkToPage",
 			"readOnly": false,
 			"repeatable": false,
-			"required": false,
+			"required": true,
 			"showLabel": true,
 			"type": "text"
 		}
