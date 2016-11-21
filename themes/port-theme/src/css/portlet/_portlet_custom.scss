@@ -45,6 +45,24 @@
 		@include transition(background 0.2s linear);
 	}
 
+	.bio {
+		.bio-content {
+			@include display(flex);
+
+		}
+
+		img {
+			border-radius: 50%;
+			height: 75px;
+			margin-right: 20px;
+			width: 75px;
+		}
+
+		p {
+			font-size: 10px;
+		}
+	}
+
 	.works-display {
 		margin: 50px 0;
 
