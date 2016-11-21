@@ -23,7 +23,7 @@
 
 						<#else>
 
-							<img src="[$FILE=forest.jpg$]" />
+							<img src="/o/port-theme/images/forest.jpg" />
 
 						</#if>
 
