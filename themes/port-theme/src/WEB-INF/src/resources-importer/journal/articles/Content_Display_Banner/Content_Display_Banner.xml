@@ -37,7 +37,4 @@
 	<dynamic-element name="BannerSize" type="list" index-type="keyword" instance-id="sega">
 		<dynamic-content language-id="en_US"><![CDATA[medium]]></dynamic-content>
 	</dynamic-element>
-	<dynamic-element name="BackgroundImageURL" type="text" index-type="keyword" instance-id="yarz">
-		<dynamic-content language-id="en_US"><![CDATA[[$FILE=notebook-computer-chill-relax.jpg$]]]></dynamic-content>
-	</dynamic-element>
 </root>

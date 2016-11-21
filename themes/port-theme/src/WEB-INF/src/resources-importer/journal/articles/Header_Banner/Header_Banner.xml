@@ -10,7 +10,4 @@
 	<dynamic-element name="BannerSize" type="list" index-type="keyword" instance-id="otdt">
 		<dynamic-content language-id="en_US"><![CDATA[full-page]]></dynamic-content>
 	</dynamic-element>
-	<dynamic-element name="BackgroundImageURL" type="text" index-type="keyword" instance-id="yvdp">
-		<dynamic-content language-id="en_US"><![CDATA[[$FILE=port-banner.jpg$]]]></dynamic-content>
-	</dynamic-element>
 </root>

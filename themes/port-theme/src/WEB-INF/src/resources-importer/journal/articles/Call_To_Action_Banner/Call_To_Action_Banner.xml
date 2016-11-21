@@ -13,7 +13,4 @@
 	<dynamic-element name="BannerSize" type="list" index-type="keyword" instance-id="reiu">
 		<dynamic-content language-id="en_US"><![CDATA[medium]]></dynamic-content>
 	</dynamic-element>
-	<dynamic-element name="BackgroundImageURL" type="text" index-type="keyword" instance-id="mrvi">
-		<dynamic-content language-id="en_US"><![CDATA[[$FILE=traffic.jpg$]]]></dynamic-content>
-	</dynamic-element>
 </root>
