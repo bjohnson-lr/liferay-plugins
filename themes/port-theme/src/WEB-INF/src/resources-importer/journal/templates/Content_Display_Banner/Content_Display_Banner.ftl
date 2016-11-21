@@ -8,7 +8,6 @@
 
 </#if>
 
-
 	<div class="overlay">
 
 		<div class="heading">
