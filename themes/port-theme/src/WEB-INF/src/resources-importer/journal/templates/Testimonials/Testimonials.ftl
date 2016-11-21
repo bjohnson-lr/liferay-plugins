@@ -3,22 +3,15 @@
 		<#if PersonName.getSiblings()?has_content>
 			<#list PersonName.getSiblings() as person>
 
-				<#if person.PersonImage?? && person.PersonImage.getData() != "">
-
-					<#assign person_image = person.PersonImage.getData() />
-
-				<#elseif person.PersonImageURL?? && person.PersonImageURL.getData() != "">
-
-						<#assign person_image = person.PersonImageURL.getData() />
-
-				<#else>
-
-					<#assign person_image = "" />
-
-				</#if>
-
 				<li>
-					<img  alt="${person.getData()}" src="${person_image}">
+					<#if person.PersonImage?? && person.PersonImage.getData() != "">
+
+						<img  alt="${person.getData()}" src="${person.PersonImage.getData()}" />
+
+					<#else>
+
+						<img alt="${person.getData()}" src="/o/port-theme/images/person.jpg" />
+					</#if>
 
 					<p>"${person.PersonTestimonial.getData()}"</p>
 
