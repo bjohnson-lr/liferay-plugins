@@ -5,13 +5,16 @@
 
 				<li>
 					<#if person.PersonImage?? && person.PersonImage.getData() != "">
-
-						<img  alt="${person.getData()}" src="${person.PersonImage.getData()}" />
-
+						<#assign
+							person_image = person.PersonImage.getData()
+						/>
 					<#else>
-
-						<img alt="${person.getData()}" src="/o/port-theme/images/person.jpg" />
+						<#assign
+							person_image = "/o/port-theme/images/person.jpg"
+						/>
 					</#if>
+
+					<img  alt="${person.getData()}" src="${person_image}" />
 
 					<p>"${person.PersonTestimonial.getData()}"</p>
 

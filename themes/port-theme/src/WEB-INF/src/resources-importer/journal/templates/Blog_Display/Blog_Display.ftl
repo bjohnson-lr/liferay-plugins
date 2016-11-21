@@ -35,18 +35,19 @@
 						/>
 					</#if>
 
+
+					<#if blog.Image?? && blog.Image.getData() != "">
+						<#assign
+							blog_image_url = blog.Image.getData()
+						/>
+					<#else>
+						<#assign
+							blog_image_url = "/o/port-theme/images/forest.jpg"
+						/>
+					</#if>
+
 					<li>
-
-						<#if blog.Image?? && blog.Image.getData() != "">
-
-							<img src="${blog.Image.getData()}" />
-
-						<#else>
-
-							<img src="/o/port-theme/images/forest.jpg" />
-
-						</#if>
-
+						<img src="${blog_image_url}" />
 						<h5>
 							<a href="${current_blog_url}">
 								${blog.getData()}

@@ -1,13 +1,15 @@
 <#if BackgroundImage?? && BackgroundImage.getData() != "">
 
-	<div class="photo-bg services site-banner" style="background-image: url(${background_image})">
-
+	<#assign
+		background_image = BackgroundImage.getData()
+	/>
 <#else>
-
-	<div class="photo-bg services services-default-bg site-banner">
-
+	<#assign
+		background_image = "/o/port-theme/images/notebook_computer_chill_relax.jpg"
+	/>
 </#if>
 
+<div class="photo-bg services site-banner" style="background-image: url(${background_image})">
 	<div class="overlay">
 
 		<div class="heading">

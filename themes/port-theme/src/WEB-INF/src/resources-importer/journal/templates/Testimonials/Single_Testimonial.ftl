@@ -4,14 +4,16 @@
 	<#if PersonName?has_content>
 
 		<#if PersonName.PersonImage?? && PersonName.PersonImage.getData() != "">
-
-			<img alt="${PersonName.getData()}" src="${person_image}" />
-
+			<#assign
+				person_image = PersonName.PersonImage.getData()
+			/>
 		<#else>
-
-			<img alt="${PersonName.getData()}" src="/o/port-theme/images/person.jpg" />
-
+			<#assign
+				person_image = "/o/port-theme/images/person.jpg"
+			/>
 		</#if>
+
+		<img alt="${PersonName.getData()}" src="${person_image}" />
 
 		<div class="testimonial-content">
 			<p>${PersonName.PersonTestimonial.getData()}</p>

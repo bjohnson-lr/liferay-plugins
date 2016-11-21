@@ -1,17 +1,19 @@
 <#if BackgroundImage?? && BackgroundImage.getData() != "">
-
-	<div class="${BannerSize.getData()}-banner jumbotron photo-bg" style="background-image: url(${BackgroundImage.getData()})">
-
+	<#assign
+		background_image = BackgroundImage.getData()
+	/>
 <#else>
-
-	<div class="${BannerSize.getData()}-banner jumbotron photo-bg header-banner-default-bg">
-
+	<#assign
+		background_image = "/o/port-theme/images/port_banner.jpg"
+	/>
 </#if>
 
-		<div class="banner-content">
-			<h1>${Heading.getData()}</h1>
+<div class="${BannerSize.getData()}-banner jumbotron photo-bg" style="background-image: url(${background_image})">
 
-			<h4>${Subheading.getData()}</h4>
-		</div>
+	<div class="banner-content">
+		<h1>${Heading.getData()}</h1>
+
+		<h4>${Subheading.getData()}</h4>
+	</div>
 
 </div>

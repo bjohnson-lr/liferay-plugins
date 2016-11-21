@@ -1,13 +1,14 @@
 <#if BackgroundImage?? && BackgroundImage.getData() != "">
-
-	<div class="photo-bg site-banner" style="background-image: url(${background_image})">
-
+	<#assign
+		background_image = BackgroundImage.getData()
+	/>
 <#else>
-
-	<div class="call-to-action-default-bg photo-bg site-banner">
-
+	<#assign
+		background_image = "/o/port-theme/images/traffic.jpg"
+	/>
 </#if>
 
+<div class="photo-bg site-banner" style="background-image: url(${background_image})">
 	<div class="overlay">
 
 		<div class="call-to-action">
@@ -19,7 +20,6 @@
 				<#else>
 					<#assign link_to_page = "./portfolio" />
 				</#if>
-
 
 				<a href="${link_to_page}">
 					${ButtonText.getData()}

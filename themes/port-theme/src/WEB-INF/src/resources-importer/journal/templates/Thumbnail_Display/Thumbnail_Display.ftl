@@ -35,14 +35,16 @@
 					<li>
 
 						<#if current_thumbnail.ThumbnailImage?? && current_thumbnail.ThumbnailImage.getData() != "">
-
-							<div class="card-background card-item photo-bg" style="background-image: url(${current_thumbnail.ThumbnailImage.getData()})">
-
+							<#assign
+								thumbnail_bg = current_thumbnail.ThumbnailImage.getData()
+							/>
 						<#else>
-
-							<div class="card-background card-item photo-bg thumbnail-cards-default-bg">
-
+							<#assign
+								thumbnail_bg = "/o/port-theme/images/card_thumbnail.jpg"
+							/>
 						</#if>
+
+						<div class="card-background card-item photo-bg" style="background-image: url(${thumbnail_bg})">
 
 							<div class="overlay">
 
