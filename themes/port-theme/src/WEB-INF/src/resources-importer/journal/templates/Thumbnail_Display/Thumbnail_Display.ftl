@@ -22,21 +22,17 @@
 			<#if Thumbnail.getSiblings()?has_content>
 				<#list Thumbnail.getSiblings() as current_thumbnail>
 
-					<#if current_thumbnail.ThumbnailImage?? && current_thumbnail.ThumbnailImage.getData() != "">
-
-						<#assign thumbnail_image = current_thumbnail.ThumbnailImage.getData() />
-
-					<#elseif current_thumbnail.ThumbnailImageURL?? && current_thumbnail.ThumbnailImageURL.getData() != "">
-
-							<#assign thumbnail_image = current_thumbnail.ThumbnailImageURL.getData() />
-					<#else>
-
-						<#assign thumbnail_image = "" />
-
-					</#if>
-
 					<li>
-						<div class="card-background card-item photo-bg" style="background-image: url(${thumbnail_image})">
+
+						<#if current_thumbnail.ThumbnailImage?? && current_thumbnail.ThumbnailImage.getData() != "">
+
+							<div class="card-background card-item photo-bg" style="background-image: url(${current_thumbnail.ThumbnailImage.getData()})">
+
+						<#else>
+
+							<div class="card-background card-item photo-bg thumbnail-cards-default-bg">
+
+						</#if>
 
 							<div class="overlay">
 
