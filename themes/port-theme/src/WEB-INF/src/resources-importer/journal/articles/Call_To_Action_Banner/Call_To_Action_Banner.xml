@@ -7,9 +7,6 @@
 	<dynamic-element name="ButtonText" type="text" index-type="keyword" instance-id="vxyv">
 		<dynamic-content language-id="en_US"><![CDATA[Click Me!]]></dynamic-content>
 	</dynamic-element>
-	<dynamic-element name="LinkToPage" type="text" index-type="keyword" instance-id="kocu">
-		<dynamic-content language-id="en_US"><![CDATA[12345]]></dynamic-content>
-	</dynamic-element>
 	<dynamic-element name="BannerSize" type="list" index-type="keyword" instance-id="reiu">
 		<dynamic-content language-id="en_US"><![CDATA[medium]]></dynamic-content>
 	</dynamic-element>

@@ -4,7 +4,7 @@
 
 <#else>
 
-	<div class="photo-bg site-banner call-to-action-default-bg">
+	<div class="call-to-action-default-bg photo-bg site-banner">
 
 </#if>
 
@@ -14,7 +14,14 @@
 			<h3>${CallToAction.getData()}</h3>
 
 			<button class="btn btn-complement">
-				<a href="${LinkToPage.getData()}">
+				<#if LinkToPage??>
+					<#assign link_to_page = LinkToPage.getData() />
+				<#else>
+					<#assign link_to_page = "./about" />
+				</#if>
+
+
+				<a href="${link_to_page}">
 					${ButtonText.getData()}
 				</a>
 			</button>
