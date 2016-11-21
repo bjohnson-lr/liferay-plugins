@@ -8,7 +8,7 @@
 				/>
 			<#else>
 				<#assign
-					link_to_post = "./benjohnson"
+					link_to_post = DefaultURL.getData()
 				/>
 			</#if>
 

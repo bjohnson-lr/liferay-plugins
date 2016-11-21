@@ -99,6 +99,14 @@
 							"groupId": "${groupId}",
 							"portletSetupPortletDecoratorId": "portlet-custom"
 						}
+					},
+					{
+						"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+						"portletPreferences": {
+							"articleId": "Sample_Post_Preview_2.xml",
+							"groupId": "${groupId}",
+							"portletSetupPortletDecoratorId": "portlet-custom"
+						}
 					}
 				],
 				[
@@ -159,9 +167,37 @@
 						]
 					],
 					"layoutTemplateId": "port_1_2_limited",
-					"friendlyURL": "/benjohnson",
-					"name": "Ben Johnson",
-					"title": "Ben Johnson"
+					"friendlyURL": "/blogs/author-one",
+					"name": "Author One",
+					"title": "Author One"
+				},
+				{
+					"columns": [
+						[
+							{
+								"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+								"portletPreferences": {
+									"articleId": "Author_2_Blog_Header.xml",
+									"groupId": "${groupId}",
+									"portletSetupPortletDecoratorId": "portlet-custom"
+								}
+							}
+						],
+						[
+							{
+								"portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+								"portletPreferences": {
+									"articleId": "Sample_Post_2.xml",
+									"groupId": "${groupId}",
+									"portletSetupPortletDecoratorId": "portlet-custom"
+								}
+							}
+						]
+					],
+					"layoutTemplateId": "port_1_2_limited",
+					"friendlyURL": "blogs/author-two",
+					"name": "Author Two",
+					"title": "Author Two"
 				}
 			]
 		},

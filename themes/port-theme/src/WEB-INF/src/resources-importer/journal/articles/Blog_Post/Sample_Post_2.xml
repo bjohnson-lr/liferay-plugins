@@ -2,10 +2,10 @@
 
 <root available-locales="en_US" default-locale="en_US">
 	<dynamic-element name="Title" type="text" index-type="keyword" instance-id="xxcd">
-		<dynamic-content language-id="en_US"><![CDATA[Sample Blog Post]]></dynamic-content>
+		<dynamic-content language-id="en_US"><![CDATA[Another Sample Blog Post]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="Author" type="text" index-type="keyword" instance-id="yzwt">
-		<dynamic-content language-id="en_US"><![CDATA[Author One]]></dynamic-content>
+		<dynamic-content language-id="en_US"><![CDATA[Author Two]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="Category" type="text" index-type="keyword" instance-id="fnqj">
 		<dynamic-content language-id="en_US"><![CDATA[Tests]]></dynamic-content>
