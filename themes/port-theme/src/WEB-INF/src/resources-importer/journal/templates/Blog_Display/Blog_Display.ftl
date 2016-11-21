@@ -15,22 +15,17 @@
 			<#if BlogTitle.getSiblings()?has_content>
 				<#list BlogTitle.getSiblings() as blog>
 
-					<#if blog.Image?? && blog.Image.getData() != "">
-
-						<#assign image = blog.Image.getData() />
-
-					<#elseif blog.ImageURL?? && blog.ImageURL.getData() != "">
-
-						<#assign image = blog.ImageURL.getData() />
-
-					<#else>
-
-						<#assign image = "" />
-
-					</#if>
-
 					<li>
-						<img src="${image}" />
+
+						<#if blog.Image?? && blog.Image.getData() != "">
+
+							<img src="${blog.Image.getData()}" />
+
+						<#else>
+
+							<img src="[$FILE=forest.jpg$]" />
+
+						</#if>
 
 						<h5>
 							<a href="${blog.LinkToBlogPost.getData()}">
