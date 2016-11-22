@@ -11,7 +11,7 @@
 		<dynamic-content language-id="en_US"><![CDATA[Tests]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="DefaultURL" type="text" index-type="keyword" instance-id="fnqj">
-		<dynamic-content language-id="en_US"><![CDATA[./blogs/author-two]]></dynamic-content>
+		<dynamic-content language-id="en_US"><![CDATA[./blogs/author-two/sample-post-2]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="Date" type="ddm-date" index-type="keyword" instance-id="vsgq">
 		<dynamic-content language-id="en_US"><![CDATA[2016-10-20]]></dynamic-content>

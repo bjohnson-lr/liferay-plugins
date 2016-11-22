@@ -2,7 +2,7 @@
 
 <root available-locales="en_US" default-locale="en_US">
 	<dynamic-element name="Title" type="text" index-type="keyword" instance-id="xxcd">
-		<dynamic-content language-id="en_US"><![CDATA[Sample Blog Post #3]]></dynamic-content>
+		<dynamic-content language-id="en_US"><![CDATA[Sample Blog Post]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="Author" type="text" index-type="keyword" instance-id="yzwt">
 		<dynamic-content language-id="en_US"><![CDATA[Author One]]></dynamic-content>
@@ -11,10 +11,10 @@
 		<dynamic-content language-id="en_US"><![CDATA[Tests]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="DefaultURL" type="text" index-type="keyword" instance-id="fnqj">
-		<dynamic-content language-id="en_US"><![CDATA[./blogs/author-one/sample-post-3]]></dynamic-content>
+		<dynamic-content language-id="en_US"><![CDATA[./author-one/sample-post]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="Date" type="ddm-date" index-type="keyword" instance-id="vsgq">
-		<dynamic-content language-id="en_US"><![CDATA[2010-09-16]]></dynamic-content>
+		<dynamic-content language-id="en_US"><![CDATA[2016-09-16]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element name="PostContent" type="text_area" index-type="text" instance-id="cnro">
 		<dynamic-content language-id="en_US"><![CDATA[
