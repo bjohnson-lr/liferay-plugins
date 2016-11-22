@@ -11,11 +11,12 @@
 
 <div class="photo-bg services site-banner" style="background-image: url(${background_image})">
 	<div class="overlay">
-
-		<div class="heading">
-			<h3>${Heading.getData()}</h3>
-			<h4>${Subheading.getData()}</h4>
-		</div>
+		<#if Heading?? || Subheading??>
+			<div class="heading">
+				<h3>${Heading.getData()}</h3>
+				<h4>${Subheading.getData()}</h4>
+			</div>
+		</#if>
 
 		<ul class="cards">
 			<#if ItemHeading.getSiblings()?has_content>
