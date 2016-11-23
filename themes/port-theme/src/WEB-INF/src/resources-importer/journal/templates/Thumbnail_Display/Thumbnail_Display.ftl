@@ -9,7 +9,7 @@
 			<button class="btn">
 				<#if ButtonLink??>
 					<#assign
-						button_link = ButtonLink.getData()
+						button_link = ButtonLink.getFriendlyUrl()
 					/>
 				<#else>
 					<#assign
@@ -51,7 +51,7 @@
 								<button class="btn">
 									<#if current_thumbnail.ThumbnailLink??>
 										<#assign
-											thumbnail_link = current_thumbnail.ThumbnailLink.getData()
+											thumbnail_link = current_thumbnail.ThumbnailLink.getFriendlyUrl()
 										/>
 									<#else>
 										<#assign

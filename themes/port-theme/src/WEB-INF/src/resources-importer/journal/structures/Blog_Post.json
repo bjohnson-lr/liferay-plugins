@@ -134,7 +134,8 @@
 			"tip": {
 				"en_US": ""
 			},
-			"dataType": "text",
+			"dataType": "link-to-page",
+			"fieldNamespace": "ddm",
 			"indexType": "keyword",
 			"localizable": true,
 			"name": "LinkToPost",
@@ -142,7 +143,7 @@
 			"repeatable": false,
 			"required": false,
 			"showLabel": true,
-			"type": "text"
+			"type": "ddm-link-to-page"
 		},
 	]
 }

@@ -16,7 +16,7 @@
 
 			<button class="btn btn-complement">
 				<#if LinkToPage??>
-					<#assign link_to_page = LinkToPage.getData() />
+					<#assign link_to_page = LinkToPage.getFriendlyUrl() />
 				<#else>
 					<#assign link_to_page = "./portfolio" />
 				</#if>

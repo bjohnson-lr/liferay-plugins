@@ -4,7 +4,7 @@
 		<h1>
 			<#if LinkToPost??>
 				<#assign
-					link_to_post = LinkToPost.getData()
+					link_to_post = LinkToPost.getFriendlyUrl()
 				/>
 			<#else>
 				<#assign

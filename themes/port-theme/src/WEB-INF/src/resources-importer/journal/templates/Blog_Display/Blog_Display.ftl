@@ -4,9 +4,9 @@
 		<h2>${Heading.getData()}</h2>
 
 		<button class="btn">
-			<#if LinkToBlogPage?? && LinkToBlogPage.getData() != "">
+			<#if LinkToBlogPage??>
 				<#assign
-					blog_url = LinkToBlogPage.getData()
+					blog_url = LinkToBlogPage.getFriendlyUrl()
 				/>
 			<#else>
 				<#assign
@@ -22,19 +22,19 @@
 
 	<div class="blog-cards">
 		<ul class="cards">
+
 			<#if BlogTitle.getSiblings()?has_content>
 				<#list BlogTitle.getSiblings() as blog>
 
 					<#if blog.LinkToBlogPost??>
 						<#assign
-							current_blog_url = blog.LinkToBlogPost.getData()
+							current_blog_url = blog.LinkToBlogPost.getFriendlyUrl()
 						/>
 					<#else>
 						<#assign
 							current_blog_url = blog.DefaultBlogLink.getData()
 						/>
 					</#if>
-
 
 					<#if blog.Image?? && blog.Image.getData() != "">
 						<#assign
@@ -48,6 +48,7 @@
 
 					<li>
 						<img src="${blog_image_url}" />
+
 						<h5>
 							<a href="${current_blog_url}">
 								${blog.getData()}
@@ -63,6 +64,7 @@
 
 				</#list>
 			</#if>
+
 		</ul>
 	</div>
 

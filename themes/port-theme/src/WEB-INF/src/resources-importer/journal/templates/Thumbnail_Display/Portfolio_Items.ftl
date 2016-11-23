@@ -24,7 +24,7 @@
 								<button class="btn">
 									<#if current_thumbnail.ThumbnailLink??>
 										<#assign
-											thumbnail_link = current_thumbnail.ThumbnailLink.getData()
+											thumbnail_link = current_thumbnail.ThumbnailLink.getFriendlyUrl()
 										/>
 									<#else>
 										<#assign
