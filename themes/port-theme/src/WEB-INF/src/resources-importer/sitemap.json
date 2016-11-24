@@ -402,8 +402,47 @@
 					{
 						"portletId": "com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet",
 						"portletPreferences": {
-							"displayStyle": "ddmTemplate_BLOG_PREVIEW_DISPLAY",
-							"displayStyleGroupId": "${groupId}"
+							"enableRelatedAssets": "true",
+							"enableViewCountIncrement": "true",
+							"delta": "10",
+							"selectionStyle": "dynamic",
+							"enablePermissions": "true",
+							"rssDisplayStyle": "abstract",
+							"queryName0": "assetTags",
+							"enableRatings": "false",
+							"orderByColumn2": "title",
+							"orderbyColumn1": "modifiedDate",
+							"subtypeFieldsFilerEnabledDLFileEntryAssetRendererFactory": "false",
+							"showOnlyLayoutAssets": "false",
+							"queryContains0": "true",
+							"queryAndOperator0": "false",
+							"emailAssetEntryAddedEnabaled": "false",
+							"rssDelta": "20",
+							"socialBookmarksDisplayPosition": "bottom",
+							"orderByType1": "DESC",
+							"showAssetTitle": "true",
+							"orderByType2": "ASC",
+							"paginationType": "none",
+							"subtypeFieldsFilterEnabled": "false",
+							"showAvailableLocales": "false",
+							"displayStyleGroupId": "${groupId}",
+							"assetLinkBehavior": "showFullContent",
+							"displayStyle": "abstracts",
+							"enableRss": "false",
+							"rssFeedType": "atom_1.0",
+							"anyAssetType": "com.liferay.journal.model.JournalArticle",
+							"subtypeFieldsFilterEnabledJournalArticleAssetRendererFactory": "false",
+							"emailFromName": "Test Test",
+							"abstractLength": "200",
+							"showMetadataDescriptions": "true",
+							"enableFlags": "false",
+							"showAddContentButton": "true",
+							"rssName": "Asset Publisher",
+							"enableCommentRatings": "false",
+							"emailFromAddress": "test@liferay.com",
+							"enablePrint": "false"
+
+
 						}
 					}
 				]
