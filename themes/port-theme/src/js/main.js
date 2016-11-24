@@ -31,6 +31,8 @@ AUI().ready(
 			$banner.addClass('filled');
 			AUI.$('#content').addClass('content-under-header');
 		}
+
+
 	}
 );
 

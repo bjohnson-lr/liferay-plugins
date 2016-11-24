@@ -395,6 +395,22 @@
 			"friendlyURL": "/full-width",
 			"name": "Full Width",
 			"title": "Full Width"
+		},
+		{
+			"columns": [
+				[
+					{
+						"portletId": "com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet",
+						"portletPreferences": {
+							"displayStyle": "ddmTemplate_BLOG_PREVIEW_DISPLAY",
+							"displayStyleGroupId": "${groupId}"
+						}
+					}
+				]
+			],
+			"friendlyURL": "/test",
+			"name": "Test",
+			"title": "Test"
 		}
 	]
 }
